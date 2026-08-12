@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+/* O tema escuro é controlado pela classe .dark no <html> (ver lib/theme.js e o
+   script inline do index.html), não pela preferência do sistema operativo — por
+   isso é preciso redefinir a variante `dark:` do Tailwind v4, que por omissão
+   olha para `prefers-color-scheme`. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  /* Paleta inspirada na bandeira do Brasil.
+     azul #002776 e amarelo #FFDF00 são as cores principais da interface;
+     verde #009C3B fica reservado para o estado "correcto/concluído". */
+
+  --color-azul-50: #eef4ff;
+  --color-azul-100: #dbe6fe;
+  --color-azul-200: #bfd3fe;
+  --color-azul-300: #93b4fd;
+  --color-azul-400: #6090fa;
+  --color-azul-500: #3b6bf0;
+  --color-azul-600: #2450dd;
+  --color-azul-700: #1c3db4;
+  --color-azul-800: #16318f;
+  --color-azul-900: #002776;
+  --color-azul-950: #001a50;
+
+  --color-amarelo-50: #fffce8;
+  --color-amarelo-100: #fff9c2;
+  --color-amarelo-200: #fff287;
+  --color-amarelo-300: #ffe642;
+  --color-amarelo-400: #ffdf00;
+  --color-amarelo-500: #e8c400;
+  --color-amarelo-600: #c29b00;
+  --color-amarelo-700: #9a7002;
+  --color-amarelo-800: #7f580a;
+  --color-amarelo-900: #6c480f;
+  --color-amarelo-950: #3f2704;
+
+  --color-verde-50: #eafaf0;
+  --color-verde-100: #cdf3dc;
+  --color-verde-200: #9de6bb;
+  --color-verde-300: #63d493;
+  --color-verde-400: #2fbb6e;
+  --color-verde-500: #009c3b;
+  --color-verde-600: #008532;
+  --color-verde-700: #006a2a;
+  --color-verde-800: #005423;
+  --color-verde-900: #00461f;
+  --color-verde-950: #00280f;
+
+  /* Neutros com um toque de azul, para o fundo e o texto combinarem com a marca. */
+  --color-noite-50: #f6f8fc;
+  --color-noite-100: #eaeff8;
+  --color-noite-200: #d3dcee;
+  --color-noite-300: #adbcdc;
+  --color-noite-400: #7f95c4;
+  --color-noite-500: #5b71a5;
+  --color-noite-600: #445787;
+  --color-noite-700: #36446b;
+  --color-noite-800: #232e4d;
+  --color-noite-900: #171f38;
+  --color-noite-950: #0d1327;
+}
+
+html {
+  color-scheme: light;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Faixa decorativa verde/amarelo/azul usada no topo dos cartões de destaque. */
+.faixa-brasil {
+  background: linear-gradient(
+    90deg,
+    var(--color-verde-500) 0%,
+    var(--color-verde-500) 33%,
+    var(--color-amarelo-400) 33%,
+    var(--color-amarelo-400) 66%,
+    var(--color-azul-900) 66%,
+    var(--color-azul-900) 100%
+  );
+}
