@@ -13,11 +13,18 @@ function normalize(str) {
     .trim();
 }
 
-// Gera as variantes aceitáveis de uma resposta que contenha "(não)" opcional,
-// ex.: "Hoje (não) é quarta-feira." -> ["Hoje é quarta-feira.", "Hoje não é quarta-feira."]
-function expandOptionalNao(answer) {
-  if (!answer.includes("(não)")) return [answer];
-  return [answer.replace(/\(não\)\s*/g, ""), answer.replace(/\(não\)/g, "não")];
+// Gera as variantes aceitáveis de uma resposta com partes opcionais entre
+// parênteses, aceitando-a com e sem essa parte:
+//   "Hoje (não) é quarta-feira."  -> "Hoje é quarta-feira." | "Hoje não é quarta-feira."
+//   "(Eu) não sei o nome dela."   -> "Eu não sei..."        | "não sei..."
+// A chave do livro usa isto tanto para o "(não)" como para os sujeitos que
+// podem ficar subentendidos. Havendo vários, expandem-se as combinações todas.
+function expandOptionals(answer) {
+  const opcional = answer.match(/\(([^)]*)\)/);
+  if (!opcional) return [answer];
+  const com = answer.replace(opcional[0], opcional[1]);
+  const sem = answer.replace(opcional[0], "");
+  return [...expandOptionals(com), ...expandOptionals(sem)];
 }
 
 // Suporta respostas alternativas separadas por "/", ex.: "sou/és" -> ["sou", "és"]
@@ -27,8 +34,7 @@ function expandSlashAlternatives(answer) {
 }
 
 function acceptableVariants(answer) {
-  const withNao = expandOptionalNao(answer);
-  return withNao.flatMap(expandSlashAlternatives).map(normalize);
+  return expandOptionals(answer).flatMap(expandSlashAlternatives).map(normalize);
 }
 
 // Corrige um item de tipo "blank": userInputs e answers são arrays na mesma ordem
