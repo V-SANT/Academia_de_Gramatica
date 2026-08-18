@@ -801,6 +801,111 @@ export const CONTEUDO_ES = {
   // Etiquetas dos exemplos
   lugar: "lugar",
   tempo: "tiempo",
+
+  // ---- Unidades 31-35 ----
+  // Sem entrada, de propósito: os títulos e cabeçalhos que são as próprias
+  // construções em estudo ("tão e tanto", "tão … que", "mais … do que, tão …
+  // como, menos … do que", "comigo, contigo; para mim, para ti").
+
+  // Títulos e subtítulos
+  imperativo: "imperativo",
+  comparativos: "comparativos",
+  superlativos: "superlativos",
+  "relativo e absoluto (muito … / -íssimo)": "relativo y absoluto (muito … / -íssimo)",
+  "exclamativas e consecutivas (tão … que, tanto … que)":
+    "exclamativas y consecutivas (tão … que, tanto … que)",
+  "preposições + pronomes pessoais": "preposiciones + pronombres personales",
+
+  // Instruções
+  "Complete com as formas corretas dos verbos no imperativo.":
+    "Completa con las formas correctas de los verbos en el imperativo.",
+  "O Miguel tem 5 anos e faz muitos disparates. A mãe está dando-lhe algumas ordens:":
+    "El Miguel tiene 5 años y hace muchas travesuras. La madre le está dando algunas órdenes:",
+  "Complete as frases com os verbos no imperativo.":
+    "Completa las frases con los verbos en el imperativo.",
+  "Complete as frases com os adjetivos/advérbios na forma correta.":
+    "Completa las frases con los adjetivos/adverbios en la forma correcta.",
+  "Complete as frases com os adjetivos/advérbios contrários na forma correta.":
+    "Completa las frases con los adjetivos/adverbios contrarios en la forma correcta.",
+  "Complete as frases com tão … como.": "Completa las frases con tão … como.",
+  "Complete com os adjetivos na forma correta.": "Completa con los adjetivos en la forma correcta.",
+  "Complete as frases.": "Completa las frases.",
+  "Complete as frases exclamativas com tão ou tanto.":
+    "Completa las frases exclamativas con tão o tanto.",
+  "Faça frases exclamativas com tão.": "Haz frases exclamativas con tão.",
+  "Complete com tão ou tanto(s), tanta(s).": "Completa con tão o tanto(s), tanta(s).",
+  "Ligue as frases com tão … que ou tanto … que.": "Une las frases con tão … que o tanto … que.",
+  "Complete com a forma correta do pronome.": "Completa con la forma correcta del pronombre.",
+  "Complete com a forma correta do pronome contraído ou não com a preposição com.":
+    "Completa con la forma correcta del pronombre, contraído o no con la preposición com.",
+  "Complete com o pronome contraído ou não com a preposição com.":
+    "Completa con el pronombre contraído o no con la preposición com.",
+
+  // Notas
+  "A forma de tu tira-se do presente (ele fala → fala); as de você e vocês tiram-se da 1.ª pessoa sem o -o (eu falo → fale, falem).":
+    "La forma de tu se saca del presente (ele fala → fala); las de você y vocês se sacan de la 1.ª persona sin la -o (eu falo → fale, falem).",
+  "No imperativo negativo só é diferente a forma de tu (é a formal do singular + s). Todas as outras são iguais na afirmativa e na negativa.":
+    "En el imperativo negativo solo cambia la forma de tu (es la formal del singular + s). Todas las demás son iguales en afirmativa y en negativa.",
+  "No livro já vem resolvido o verbo vestir: (tu) Veste o casaco. (você) Vista a blusa. (vocês) Vistam os casacos.":
+    "En el libro ya viene resuelto el verbo vestir: (tu) Veste o casaco. (você) Vista a blusa. (vocês) Vistam os casacos.",
+  "O exemplo do livro é: Miguel, não dispas (despir) a blusa. Está muito frio.":
+    "El ejemplo del libro es: Miguel, não dispas (despir) a blusa. Está muito frio.",
+  "O exemplo do livro é: — Está muito calor aqui. (tu/abrir a janela) → Abre a janela.":
+    "El ejemplo del libro es: — Está muito calor aqui. (tu/abrir a janela) → Abre a janela.",
+  "O comparativo de inferioridade (menos … do que) é pouco usado.":
+    "El comparativo de inferioridad (menos … do que) se usa poco.",
+  "O exemplo do livro é: Se eu tenho 20 anos e tu tens 21, então tu és mais velho do que eu (velho).":
+    "El ejemplo del libro es: Se eu tenho 20 anos e tu tens 21, então tu és mais velho do que eu (velho).",
+  "O exemplo do livro é: Este restaurante é muito caro. Vamos a outro mais barato.":
+    "El ejemplo del libro es: Este restaurante é muito caro. Vamos a outro mais barato.",
+  "O exemplo do livro é: O teu irmão não é muito alto. Tu és mais alto.":
+    "El ejemplo del libro es: O teu irmão não é muito alto. Tu és mais alto.",
+  "O exemplo do livro é: A igreja é mais antiga do que o museu. → O museu não é tão antigo como a igreja.":
+    "El ejemplo del libro es: A igreja é mais antiga do que o museu. → O museu não é tão antigo como a igreja.",
+  "A forma de inferioridade (o menos …) é muito pouco usada.":
+    "La forma de inferioridad (o menos …) se usa muy poco.",
+  "O exemplo do livro é: Eu estou muito cheio. De fato, estou cheiíssimo.":
+    "El ejemplo del libro es: Eu estou muito cheio. De fato, estou cheiíssimo.",
+  "O exemplo do livro é: O Miguel é mais velho do que o Paulo e a Ana. É o mais velho dos irmãos.":
+    "El ejemplo del libro es: O Miguel é mais velho do que o Paulo e a Ana. É o mais velho dos irmãos.",
+  "No livro já vêm resolvidos o item 1 (Este é o restaurante mais caro de Lisboa.) e o 2 (Esse foi o melhor filme do ano.).":
+    "En el libro ya vienen resueltos el ítem 1 (Este é o restaurante mais caro de Lisboa.) y el 2 (Esse foi o melhor filme do ano.).",
+  "No livro já vêm resolvidos o item 1 (Está tanto calor!) e o 2 (O bebê tem uns olhos tão azuis!).":
+    "En el libro ya vienen resueltos el ítem 1 (Está tanto calor!) y el 2 (O bebê tem uns olhos tão azuis!).",
+  "O exemplo do livro é: Estas flores são muito bonitas. → Que flores tão bonitas!":
+    "El ejemplo del libro es: Estas flores são muito bonitas. → Que flores tão bonitas!",
+  "O exemplo do livro é: Estou tão atrasada. Vou pegar um táxi.":
+    "El ejemplo del libro es: Estou tão atrasada. Vou pegar um táxi.",
+  "O exemplo do livro é: Hoje andei muito. Doem-me os pés. → Hoje andei tanto que me doem os pés.":
+    "El ejemplo del libro es: Hoje andei muito. Doem-me os pés. → Hoje andei tanto que me doem os pés.",
+  "A forma convosco (= com os senhores / as senhoras) é formal.":
+    "La forma convosco (= com os senhores / as senhoras) es formal.",
+  "No livro é uma lista só, com o mesmo começo para as seis respostas.":
+    "En el libro es una sola lista, con el mismo comienzo para las seis respuestas.",
+  "O exemplo do livro é: — Também vens conosco? (nós) — Vou. Vou com vocês. (vocês)":
+    "El ejemplo del libro es: — Também vens conosco? (nós) — Vou. Vou com vocês. (vocês)",
+  "O exemplo do livro é: — Esperem por mim. Estou quase pronto. — Só esperamos por ti mais cinco minutos, João.":
+    "El ejemplo del libro es: — Esperem por mim. Estou quase pronto. — Só esperamos por ti mais cinco minutos, João.",
+
+  // Títulos de secções de teoria
+  "Imperativo afirmativo — regulares": "Imperativo afirmativo — regulares",
+  "Imperativo negativo — regulares": "Imperativo negativo — regulares",
+  "Usamos as formas do imperativo para:": "Usamos las formas del imperativo para:",
+  "Superioridade · igualdade · inferioridade": "Superioridad · igualdad · inferioridad",
+  "Superlativo relativo": "Superlativo relativo",
+  "Superlativo absoluto — analítico e sintético": "Superlativo absoluto — analítico y sintético",
+  "tão + adjetivo (invariável)": "tão + adjetivo (invariable)",
+  "tão + advérbio (invariável)": "tão + adverbio (invariable)",
+  "verbo + tanto (invariável)": "verbo + tanto (invariable)",
+  "tanto(s) / tanta(s) + substantivo (variável)": "tanto(s) / tanta(s) + sustantivo (variable)",
+  "com + pronome": "com + pronombre",
+  "outras preposições (de, a, sem, até, por, para…) + pronome":
+    "otras preposiciones (de, a, sem, até, por, para…) + pronombre",
+
+  // Etiquetas dos exemplos
+  "dar ordens": "dar órdenes",
+  "dar conselhos": "dar consejos",
+  "dar sugestões": "dar sugerencias",
 };
 
 function interpolar(texto, params) {

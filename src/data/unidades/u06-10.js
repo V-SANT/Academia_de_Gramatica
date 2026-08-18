@@ -222,7 +222,7 @@ export const UNIDADES_06_10 = [
           { n: 4, cue: "amanhã / eu / fazer / uma festa / em casa", answer: "Amanhã (eu) faço uma festa em casa." },
           { n: 5, cue: "eu / não / saber / o nome / dela", answer: "(Eu) não sei o nome dela." },
           { n: 6, cue: "o sr. Ramos / ler / o jornal / todos os dias", answer: "O sr. Ramos lê o jornal todos os dias." },
-          { n: 7, cue: "eu / trazer / uma prenda / para / a Ana", answer: "Eu trago uma prenda para a Ana." },
+          { n: 7, cue: "eu / trazer / um presente / para / a Ana", answer: "Eu trago um presente para a Ana." },
           { n: 8, cue: "eu / não / poder / sair / à noite", answer: "Eu não posso sair à noite." },
           { n: 9, cue: "eles / trazer / os livros / na mochila", answer: "Eles trazem os livros na mochila." },
           { n: 10, cue: "eu / ler / o jornal / todos os dias", answer: "Eu leio o jornal todos os dias." },

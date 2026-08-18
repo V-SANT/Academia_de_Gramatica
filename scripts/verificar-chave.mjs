@@ -33,7 +33,13 @@ const porUnidade = {};
         continue;
       }
       const item = linha.match(/^(\d+)\.\s+(.*)$/);
-      if (item && actual) exercicios[actual][item[1]] = item[2];
+      if (item && actual) {
+        exercicios[actual][item[1]] = item[2];
+      } else if (actual && linha && Object.keys(exercicios[actual]).length === 0) {
+        // Exercícios que são uma lista (35.1, 35.2): a chave dá tudo numa linha
+        // sem numeração, e do lado da app são um só item com vários brancos.
+        exercicios[actual]["1"] = linha;
+      }
     }
     porUnidade[n] = exercicios;
   }
