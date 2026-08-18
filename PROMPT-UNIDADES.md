@@ -1,4 +1,8 @@
-# Prompt para transcrever as unidades que faltam
+# Prompt para transcrever unidades
+
+**As 50 unidades do livro estão transcritas e verificadas.** Isto fica como
+método, para rever ou corrigir uma unidade que já exista — ou para transcrever
+outra cartilha da mesma colecção.
 
 Copia tudo o que está abaixo da linha para um chat novo, ajustando o intervalo
 de unidades que queres nessa sessão.
@@ -6,9 +10,9 @@ de unidades que queres nessa sessão.
 ---
 
 Estou a construir uma app para estudar português com os exercícios da cartilha
-"Gramática Ativa 1" (Lidel). As Unidades 1 a 45 já estão feitas e verificadas.
-Preciso que transcrevas as **Unidades 46 a 50** seguindo exactamente o mesmo
-método. Não faças commits nem deploy — disso trato eu.
+"Gramática Ativa 1" (Lidel). As 50 unidades já estão feitas e verificadas.
+Preciso que revejas as **Unidades X a Y** seguindo exactamente o mesmo método.
+Não faças commits nem deploy — disso trato eu.
 
 O projecto está em `C:\Users\Valentin Santander\Desktop\PORTUGUÊS\Academia_de_Gramatica`.
 É React 19 + Vite + Tailwind v4, sem backend: o progresso guarda-se em

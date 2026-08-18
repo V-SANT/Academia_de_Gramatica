@@ -1111,6 +1111,137 @@ export const CONTEUDO_ES = {
   "localização temporal": "localización temporal",
   "tempo aproximado": "tiempo aproximado",
   "período de tempo": "período de tiempo",
+
+  // ---- Unidades 46-50 ----
+  // Sem entrada, de propósito: os próprios relativos, verbos e formas em
+  // estudo ("que, quem, onde, o qual, cujo", "poder, conseguir, saber,
+  // conhecer", "haver; haver de + infinitivo", "desde e há").
+
+  // Títulos e subtítulos
+  relativos: "relativos",
+  "dever, ter de/que e precisar de": "dever, ter de/que y precisar de",
+  "gerúndio simples; ir + gerúndio": "gerundio simple; ir + gerundio",
+  "realização gradual": "realización gradual",
+  "expressões de tempo": "expresiones de tiempo",
+  "forma impessoal e intenção no futuro": "forma impersonal e intención en el futuro",
+
+  // Instruções
+  "Complete com que, quem ou onde.": "Completa con que, quem o onde.",
+  "Substitua o relativo invariável pela forma variável correspondente.":
+    "Sustituye el relativo invariable por la forma variable correspondiente.",
+  "Substitua a parte destacada pelo relativo cujo(s), cuja(s).":
+    "Sustituye la parte destacada por el relativo cujo(s), cuja(s).",
+  "Ligue as duas frases com um relativo.": "Une las dos frases con un relativo.",
+  "Complete com poder, conseguir, saber ou conhecer na forma correta.":
+    "Completa con poder, conseguir, saber o conhecer en la forma correcta.",
+  "Complete com precisar de na forma correta.": "Completa con precisar de en la forma correcta.",
+  "Complete com dever na forma correta — probabilidade.":
+    "Completa con dever en la forma correcta — probabilidad.",
+  "Complete com dever na forma correta — conselho.":
+    "Completa con dever en la forma correcta — consejo.",
+  "Complete com ter de / que na forma correta.": "Completa con ter de / que en la forma correcta.",
+  "Complete as frases substituindo a parte destacada pelo gerúndio.":
+    "Completa las frases sustituyendo la parte destacada por el gerundio.",
+  "Responda às perguntas com o gerúndio.": "Responde a las preguntas con el gerundio.",
+  "Complete com ir + gerúndio: enquanto o professor não chega, os alunos…":
+    "Completa con ir + gerundio: mientras el profesor no llega, los alumnos…",
+  "Complete com ir + gerúndio: enquanto a D. Rita vai às compras, a empregada…":
+    "Completa con ir + gerundio: mientras la D. Rita va a la compra, la empleada…",
+  "Complete com ir + gerúndio: enquanto o senhor doutor está na reunião, eu…":
+    "Completa con ir + gerundio: mientras el señor doctor está en la reunión, yo…",
+  "Complete com desde ou há.": "Completa con desde o há.",
+  "Faça frases com desde e há.": "Haz frases con desde y há.",
+  "Complete com desde e há.": "Completa con desde y há.",
+  "Responda às seguintes perguntas com desde ou há.":
+    "Responde a las siguientes preguntas con desde o há.",
+  "Substitua o verbo destacado pela forma correta do verbo haver.":
+    "Sustituye el verbo destacado por la forma correcta del verbo haver.",
+  "A Ana está conversando com a Rita sobre o cruzeiro que tenciona fazer ao Mediterrâneo. Complete o diálogo com haver de + infinitivo na forma correta.":
+    "La Ana está hablando con la Rita sobre el crucero que piensa hacer por el Mediterráneo. Completa el diálogo con haver de + infinitivo en la forma correcta.",
+  "Substitua o futuro por haver de + infinitivo na forma correta.":
+    "Sustituye el futuro por haver de + infinitivo en la forma correcta.",
+
+  // Notas
+  "Os relativos referem-se a pessoas, coisas ou lugares que os antecedem. Quem vem geralmente precedido de preposição; onde exprime uma circunstância de lugar.":
+    "Los relativos se refieren a personas, cosas o lugares que los anteceden. Quem va generalmente precedido de preposición; onde expresa una circunstancia de lugar.",
+  "O/a qual e os/as quais concordam em gênero e número com o antecedente e usam-se geralmente precedidos de preposição. Cujo(s), cuja(s) indicam posse e concordam com o substantivo que precedem.":
+    "O/a qual y os/as quais concuerdan en género y número con el antecedente y se usan generalmente precedidos de preposición. Cujo(s), cuja(s) indican posesión y concuerdan con el sustantivo al que preceden.",
+  "O exemplo do livro é: Gosto muito da casa onde moro.":
+    "El ejemplo del libro es: Gosto muito da casa onde moro.",
+  "Escreve só o relativo novo. O exemplo do livro é: O ônibus em que viajámos tinha ar condicionado. → O ônibus no qual viajámos…":
+    "Escribe solo el relativo nuevo. El ejemplo del libro es: O ônibus em que viajámos tinha ar condicionado. → O ônibus no qual viajámos…",
+  "Escreve só a parte que muda. O exemplo do livro é: A garota de olhos azuis é a irmã da Ana. → A garota, cujos olhos são azuis, é a irmã da Ana.":
+    "Escribe solo la parte que cambia. El ejemplo del libro es: A garota de olhos azuis é a irmã da Ana. → A garota, cujos olhos são azuis, é a irmã da Ana.",
+  "O exemplo do livro é: Os produtos são para exportação. Os produtos são feitos nesta fábrica. → Os produtos que são feitos nesta fábrica são para exportação.":
+    "El ejemplo del libro es: Os produtos são para exportação. Os produtos são feitos nesta fábrica. → Os produtos que são feitos nesta fábrica são para exportação.",
+  "O exemplo do livro é: Podia dizer-me as horas, por favor?":
+    "El ejemplo del libro es: Podia dizer-me as horas, por favor?",
+  "No livro já vêm resolvidos o item 1 (Estás a ficar muito gorda. (fazer ginástica) → Precisas de fazer ginástica.) e o 2 (A roupa está suja. (lavar) → Precisa de ser lavada.).":
+    "En el libro ya vienen resueltos el ítem 1 (Estás a ficar muito gorda. (fazer ginástica) → Precisas de fazer ginástica.) y el 2 (A roupa está suja. (lavar) → Precisa de ser lavada.).",
+  "O exemplo do livro é: — Sabes se a Ana está em casa? — (provavelmente está) Deve estar.":
+    "El ejemplo del libro es: — Sabes se a Ana está em casa? — (provavelmente está) Deve estar.",
+  "O exemplo do livro é: Estás muito gordo. Devias comer menos.":
+    "El ejemplo del libro es: Estás muito gordo. Devias comer menos.",
+  "Qualquer destas respostas pode ter como alternativa ter que na forma correta. O exemplo do livro é: Temos de ganhar o jogo hoje. É a nossa última oportunidade.":
+    "Cualquiera de estas respuestas admite como alternativa ter que en la forma correcta. El ejemplo del libro es: Temos de ganhar o jogo hoje. É a nossa última oportunidade.",
+  "O exemplo do livro é: Quando chego a casa, abro logo a televisão. → Chegando a casa, abro logo a televisão.":
+    "El ejemplo del libro es: Quando chego a casa, abro logo a televisão. → Chegando a casa, abro logo a televisão.",
+  "O exemplo do livro é: — Como é que os ladrões entraram? — Partindo (partir) o vidro.":
+    "El ejemplo del libro es: — Como é que os ladrões entraram? — Partindo (partir) o vidro.",
+  "O exemplo do livro é: vão lendo o texto (ler o texto).":
+    "El ejemplo del libro es: vão lendo o texto (ler o texto).",
+  "O exemplo do livro é: vai fazendo as camas (fazer as camas).":
+    "El ejemplo del libro es: vai fazendo as camas (fazer as camas).",
+  "O exemplo do livro é: vou telefonando aos clientes (telefonar aos clientes).":
+    "El ejemplo del libro es: vou telefonando aos clientes (telefonar aos clientes).",
+  "Cada situação leva duas frases: uma com desde e outra com há. O exemplo do livro é: São dez da manhã. Acordei às 8h00. → Estou acordada desde as 8h00. / Estou acordada há duas horas.":
+    "Cada situación lleva dos frases: una con desde y otra con há. El ejemplo del libro es: São dez da manhã. Acordei às 8h00. → Estou acordada desde as 8h00. / Estou acordada há duas horas.",
+  "Quando o há indica um momento no passado, o verbo está sempre no passado.":
+    "Cuando el há indica un momento en el pasado, el verbo va siempre en pasado.",
+  "Escreve só a forma do verbo haver. O exemplo do livro é: Ontem não tivemos aulas. → Ontem não houve aulas.":
+    "Escribe solo la forma del verbo haver. El ejemplo del libro es: Ontem não tivemos aulas. → Ontem não houve aulas.",
+  "O exemplo do livro é a primeira fala: Um cruzeiro pelo Mediterrâneo há de ser (ser) uma experiência muito interessante.":
+    "El ejemplo del libro es la primera intervención: Um cruzeiro pelo Mediterrâneo há de ser (ser) uma experiência muito interessante.",
+  "Escreve só a forma nova do verbo. O exemplo do livro é: Eles serão contatados ainda hoje. → Eles hão de ser contatados ainda hoje.":
+    "Escribe solo la forma nueva del verbo. El ejemplo del libro es: Eles serão contatados ainda hoje. → Eles hão de ser contatados ainda hoje.",
+
+  // Títulos de secções de teoria
+  "Relativos invariáveis": "Relativos invariables",
+  "Relativos variáveis": "Relativos variables",
+  "Gerúndio simples": "Gerundio simple",
+  "Usamos o gerúndio para:": "Usamos el gerundio para:",
+  "Realização gradual — ir + gerúndio": "Realización gradual — ir + gerundio",
+  "desde — o começo de um período de tempo": "desde — el comienzo de un período de tiempo",
+  "há — o período de tempo": "há — el período de tiempo",
+  Compare: "Compara",
+  "há — um momento no passado": "há — un momento en el pasado",
+  "Verbo haver — forma impessoal": "Verbo haver — forma impersonal",
+  "O verbo haver pode ser equivalente a:": "El verbo haver puede equivaler a:",
+  "haver de + infinitivo — forte intenção ou convicção sobre o futuro":
+    "haver de + infinitivo — fuerte intención o convicción sobre el futuro",
+  "saber · conhecer": "saber · conhecer",
+  "ter de / que · precisar de": "ter de / que · precisar de",
+
+  // Etiquetas dos exemplos
+  "possibilidade / oportunidade": "posibilidad / oportunidad",
+  "proibição (negativa)": "prohibición (negativa)",
+  "pedir / dar autorização": "pedir / dar permiso",
+  "capacidade física / mental": "capacidad física / mental",
+  "ter conhecimentos para": "tener conocimientos para",
+  "já ter visto / já ter ido": "haber visto ya / haber ido ya",
+  probabilidade: "probabilidad",
+  "obrigação moral (o que está certo)": "obligación moral (lo que está bien)",
+  "forte necessidade": "fuerte necesidad",
+  obrigação: "obligación",
+  necessidade: "necesidad",
+  "substituir uma oração coordenada": "sustituir una oración coordinada",
+  "exprimir uma circunstância de tempo": "expresar una circunstancia de tiempo",
+  "indicar o modo": "indicar el modo",
+  ter: "ter",
+  "dar / ser transmitido": "dar / ser transmitido",
+  estar: "estar",
+  existir: "existir",
+  "acontecer / passar-se": "acontecer / passar-se",
 };
 
 function interpolar(texto, params) {

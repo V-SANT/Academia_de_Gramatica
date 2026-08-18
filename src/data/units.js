@@ -55,5 +55,6 @@ import { UNIDADES_26_30 } from "./unidades/u26-30.js";
 import { UNIDADES_31_35 } from "./unidades/u31-35.js";
 import { UNIDADES_36_40 } from "./unidades/u36-40.js";
 import { UNIDADES_41_45 } from "./unidades/u41-45.js";
+import { UNIDADES_46_50 } from "./unidades/u46-50.js";
 
-export const UNITS = [...UNIDADES_01_05, ...UNIDADES_06_10, ...UNIDADES_11_15, ...UNIDADES_16_20, ...UNIDADES_21_25, ...UNIDADES_26_30, ...UNIDADES_31_35, ...UNIDADES_36_40, ...UNIDADES_41_45];
+export const UNITS = [...UNIDADES_01_05, ...UNIDADES_06_10, ...UNIDADES_11_15, ...UNIDADES_16_20, ...UNIDADES_21_25, ...UNIDADES_26_30, ...UNIDADES_31_35, ...UNIDADES_36_40, ...UNIDADES_41_45, ...UNIDADES_46_50];

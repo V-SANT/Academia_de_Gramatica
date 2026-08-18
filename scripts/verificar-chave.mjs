@@ -25,6 +25,7 @@ const porUnidade = {};
     const n = Number(blocos[i]);
     const exercicios = {};
     let actual = null;
+    const soltas = {};
     for (const linha of blocos[i + 1].split("\n").map((l) => l.trim())) {
       const cab = linha.match(/^(\d+\.\d+)\.$/);
       if (cab) {
@@ -34,7 +35,7 @@ const porUnidade = {};
       }
       // Exercícios com grupos "a) 1. … 2. …": cada grupo é um exercício à
       // parte, com o id do exercício seguido da letra (44.3a, 44.3b, …).
-      const grupo = linha.match(/^([a-z])\)\s+(.*)$/);
+      const grupo = linha.match(/^([A-Za-z])\)\s+(.*)$/);
       if (grupo && actual) {
         const idGrupo = actual + grupo[1];
         exercicios[idGrupo] = {};
@@ -44,14 +45,26 @@ const porUnidade = {};
         }
         continue;
       }
+      // O 50.2 é um diálogo: a chave marca as falas com o nome de quem fala
+      // (Ana:, Rita:) em vez de as numerar. Numeram-se pela ordem de entrada.
+      const fala = linha.match(/^[A-ZÁ-Ú][a-zá-ú]{1,10}:\s+(.*)$/);
+      if (fala && actual) {
+        exercicios[actual][String(Object.keys(exercicios[actual]).length + 1)] = fala[1];
+        continue;
+      }
       const item = linha.match(/^(\d+)\.\s+(.*)$/);
       if (item && actual) {
         exercicios[actual][item[1]] = item[2];
-      } else if (actual && linha && Object.keys(exercicios[actual]).length === 0) {
-        // Exercícios que são uma lista (35.1, 35.2): a chave dá tudo numa linha
-        // sem numeração, e do lado da app são um só item com vários brancos.
-        exercicios[actual]["1"] = linha;
+      } else if (actual && linha && soltas[actual] === undefined) {
+        soltas[actual] = linha;
       }
+    }
+    // Exercícios que são uma lista (35.1, 35.2): a chave dá tudo numa linha sem
+    // numeração, e do lado da app são um só item com vários brancos. Só conta
+    // se o exercício não tiver itens numerados — há exercícios (47.4) que
+    // trazem uma nota antes deles.
+    for (const [id, linha] of Object.entries(soltas)) {
+      if (Object.keys(exercicios[id]).length === 0) exercicios[id] = { 1: linha };
     }
     porUnidade[n] = exercicios;
   }
@@ -71,7 +84,7 @@ const normalizar = (s) =>
     .normalize("NFD")
     .replace(/[̀-ͯ]/g, "")
     .toLowerCase()
-    .replace(/[.,!?;:()→]/g, "") // a chave usa "→" entre os passos das transformações
+    .replace(/[.,!?;:()→=]/g, "") // a chave usa "→" e "=" entre os passos das transformações
     .replace(/\s+/g, " ")
     .trim();
 
