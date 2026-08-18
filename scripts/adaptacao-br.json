@@ -1,0 +1,69 @@
+{
+  "_comentario": "Adaptação PT-PT -> PT-BR. Ordem importa: as regras mais específicas vêm primeiro. Usada pelo script que converte os dados e pelo verificador (que aplica o mesmo à chave europeia antes de comparar).",
+  "regras": [
+    ["Ao pequeno-almoço", "No café da manhã"],
+    ["ao pequeno-almoço", "no café da manhã"],
+    ["pequeno-almoço", "café da manhã"],
+
+    ["A camioneta para o Porto já partiu.", "O ônibus para o Porto já partiu."],
+    ["camioneta", "ônibus"],
+
+    ["apanhar sol", "tomar sol"],
+    ["apanhando sol", "tomando sol"],
+    ["para apanhar o autocarro", "para pegar o ônibus"],
+    ["\"apanhar\"", "\"pegar\""],
+    ["[\"apanha\"]", "[\"pega\"]"],
+    ["Ela ___ sempre o autocarro das 8h.", "Ela ___ sempre o ônibus das 8h."],
+    ["apanha", "pega"],
+
+    ["autocarros", "ônibus"],
+    ["autocarro", "ônibus"],
+    ["comboio", "trem"],
+
+    ["chapéu de chuva", "guarda-chuva"],
+    ["tomar duche", "tomar banho"],
+    ["tomando duche", "tomando banho"],
+    ["Tomou duche", "Tomou banho"],
+    ["Tomava duche", "Tomava banho"],
+    ["duche", "banho"],
+
+    ["camisolas", "blusas"],
+    ["camisola", "blusa"],
+    ["na pasta", "na mochila"],
+    ["sumo", "suco"],
+    ["rapariga", "garota"],
+    ["6 divisões", "6 cômodos"],
+    ["numa vivenda", "numa casa"],
+    ["os bilhetes", "os ingressos"],
+    ["fiquei mal disposto", "passei mal"],
+    ["Peço imensa desculpa", "Peço mil desculpas"],
+
+    ["tenho de estudar", "tenho que estudar"],
+    ["tinha de estudar", "tinha que estudar"],
+
+    ["correctas", "corretas"],
+    ["correctos", "corretos"],
+    ["correcta", "correta"],
+    ["correcto", "correto"],
+    ["acções", "ações"],
+    ["acção", "ação"],
+    ["adjectivos", "adjetivos"],
+    ["adjectivo", "adjetivo"],
+    ["Ao fim-de-semana", "No fim de semana"],
+    ["fim-de-semana", "fim de semana"],
+    ["vêem", "veem"],
+    ["lêem", "leem"],
+    ["um facto", "um fato"],
+    ["director", "diretor"],
+    ["espectáculo", "espetáculo"],
+    ["reunem", "reúnem"],
+
+    ["No Inverno", "No inverno"],
+    ["no Inverno", "no inverno"],
+    ["No Verão", "No verão"],
+    ["no Verão", "no verão"],
+    ["em Abril", "em abril"],
+    ["em Maio", "em maio"],
+    ["em Janeiro", "em janeiro"]
+  ]
+}

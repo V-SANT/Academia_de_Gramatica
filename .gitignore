@@ -25,3 +25,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Fontes do livro geradas por scripts/preparar-fontes.py (páginas em PNG e
+# chave em texto). São derivadas dos ficheiros originais e pesam ~23 MB.
+fontes

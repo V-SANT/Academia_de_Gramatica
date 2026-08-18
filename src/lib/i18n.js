@@ -120,12 +120,16 @@ const UI = {
     "ex.dicaBanco": "Clica nas palavras para as riscares à medida que as usas.",
     "ex.riscar": "Riscar {palavra}",
     "ex.desriscar": "Desriscar {palavra}",
+    "ex.corrigir": "Corrigir este exercício",
+    "ex.resumo": "{certas}/{total} certas",
+    "ex.verResposta": "ver resposta",
+    "ex.esconderResposta": "Clica para esconder outra vez",
 
     "def.titulo": "Definições",
     "def.subtitulo": "Idioma, aparência, perfil e cópias de segurança do teu progresso.",
     "def.idioma": "Idioma da interface",
     "def.idiomaNota":
-      "Muda os menus e as instruções dos exercícios. As frases, as respostas e os exemplos de gramática ficam sempre em português — é a matéria que estás a estudar.",
+      "Muda os menus e as instruções dos exercícios. As frases, as respostas e os exemplos de gramática ficam sempre em português — é a matéria que estás estudando.",
     "def.aparencia": "Aparência",
     "def.aparenciaNota":
       "O tema fica guardado neste navegador e aplica-se a todos os perfis do dispositivo.",
@@ -270,6 +274,10 @@ const UI = {
     "ex.dicaBanco": "Haz clic en las palabras para tacharlas a medida que las usas.",
     "ex.riscar": "Tachar {palavra}",
     "ex.desriscar": "Destachar {palavra}",
+    "ex.corrigir": "Corregir este ejercicio",
+    "ex.resumo": "{certas}/{total} correctas",
+    "ex.verResposta": "ver respuesta",
+    "ex.esconderResposta": "Haz clic para ocultarla de nuevo",
 
     "def.titulo": "Ajustes",
     "def.subtitulo": "Idioma, apariencia, perfil y copias de seguridad de tu progreso.",
@@ -339,7 +347,10 @@ const UI = {
 
 // Texto que vem de src/data/units.js. A chave é a frase portuguesa tal como
 // está no ficheiro de conteúdo.
-const CONTEUDO_ES = {
+// Exportado para se poder conferir com um script se todos os enunciados,
+// notas, títulos de secção e etiquetas do conteúdo têm tradução (e se não há
+// chaves órfãs depois de se mexer nos textos portugueses).
+export const CONTEUDO_ES = {
   // Subtítulos das unidades
   "presente do indicativo": "presente de indicativo",
   "presente do indicativo — verbo ser": "presente de indicativo — verbo ser",
@@ -351,11 +362,11 @@ const CONTEUDO_ES = {
   "Complete com: sou / és / é / somos / são": "Completa con: sou / és / é / somos / são",
   "Complete com: estou / estás / está / estamos / estão":
     "Completa con: estou / estás / está / estamos / estão",
-  "Complete as frases. Use a forma correcta dos seguintes verbos:":
+  "Complete as frases. Use a forma correta dos seguintes verbos:":
     "Completa las frases. Usa la forma correcta de los siguientes verbos:",
   "Complete as seguintes frases com os verbos listados:":
     "Completa las siguientes frases con los verbos de la lista:",
-  "Escreva os seguintes verbos na forma correcta:": "Escribe los siguientes verbos en la forma correcta:",
+  "Escreva os seguintes verbos na forma correta:": "Escribe los siguientes verbos en la forma correcta:",
   "Faça frases afirmativas ou negativas.": "Haz frases afirmativas o negativas.",
   "Faça frases completas com: sou / és / é / somos / são":
     "Haz frases completas con: sou / és / é / somos / são",
@@ -363,11 +374,11 @@ const CONTEUDO_ES = {
     "Haz frases completas con: estou / estás / está / estamos / estão",
   "Faça frases sobre o Pedro, a Ana e sobre si próprio. Use: sempre / nunca / todos os dias / de manhã / à tarde / à noite / às vezes / normalmente":
     "Haz frases sobre el Pedro, la Ana y sobre ti mismo. Usa: sempre / nunca / todos os dias / de manhã / à tarde / à noite / às vezes / normalmente",
-  "O que é que ele/ela está a fazer? (no livro há um desenho para cada acção; aqui vai só a pista)":
+  "O que é que ele/ela está fazendo? (no livro há um desenho para cada ação; aqui vai só a pista)":
     "¿Qué está haciendo él/ella? (en el libro hay un dibujo por cada acción; aquí va solo la pista)",
-  "O que é que está a acontecer neste momento? Faça frases verdadeiras.":
+  "O que é que está acontecendo neste momento? Faça frases verdadeiras.":
     "¿Qué está pasando en este momento? Haz frases verdaderas.",
-  "Ponha o verbo na forma correcta.": "Pon el verbo en la forma correcta.",
+  "Ponha o verbo na forma correta.": "Pon el verbo en la forma correcta.",
   "ser e estar — faça as duas frases (com // separa-se a segunda frase).":
     "ser y estar — haz las dos frases (con // se separa la segunda frase).",
   "ser ou estar? Faça frases completas.": "¿ser o estar? Haz frases completas.",
@@ -376,28 +387,28 @@ const CONTEUDO_ES = {
   // Notas
   "Exercício pessoal — não tem uma única resposta correta, por isso não se corrige automaticamente. Serve para praticar livremente.":
     "Ejercicio personal — no tiene una única respuesta correcta, por eso no se corrige automáticamente. Sirve para practicar libremente.",
-  "Usamos estar a + infinitivo para descrever uma acção que está a acontecer agora, neste momento.":
-    "Usamos estar a + infinitivo para describir una acción que está ocurriendo ahora, en este momento.",
+  "Usamos estar + gerúndio para descrever uma ação que está acontecendo agora, neste momento.":
+    "Usamos estar + gerúndio para describir una acción que está ocurriendo ahora, en este momento.",
   'São frases sobre a tua situação real neste momento — por isso o livro aceita a versão com ou sem "não".':
     'Son frases sobre tu situación real en este momento — por eso el libro acepta la versión con o sin "não".',
   "característica do sujeito que teve de ser experimentado para se poder afirmar ou negar essa característica.":
     "característica del sujeto que hubo que experimentar para poder afirmarla o negarla.",
   "característica geral do sujeito que não necessita de ser experimentado para se poder afirmar ou negar essa característica.":
     "característica general del sujeto que no hace falta experimentar para poder afirmarla o negarla.",
-  "característica que não é resultado de uma acção.": "característica que no es resultado de una acción.",
-  "característica que resultou de uma acção.": "característica que resulta de una acción.",
+  "característica que não é resultado de uma ação.": "característica que no es resultado de una acción.",
+  "característica que resultou de uma ação.": "característica que resulta de una acción.",
 
   // Títulos de secções de teoria
   "Usamos o presente do indicativo para:": "Usamos el presente de indicativo para:",
-  "acções habituais": "acciones habituales",
-  "acções num futuro próximo": "acciones en un futuro próximo",
-  "constatar um facto": "constatar un hecho",
-  "estar + adjectivo": "estar + adjetivo",
-  "ser + adjectivo": "ser + adjetivo",
+  "ações habituais": "acciones habituales",
+  "ações num futuro próximo": "acciones en un futuro próximo",
+  "constatar um fato": "constatar un hecho",
+  "estar + adjetivo": "estar + adjetivo",
+  "ser + adjetivo": "ser + adjetivo",
 
   // Etiquetas dos exemplos
-  adjectivo: "adjetivo",
-  "adjectivo (característica temporária)": "adjetivo (característica temporal)",
+  adjetivo: "adjetivo",
+  "adjetivo (característica temporária)": "adjetivo (característica temporal)",
   "advérbio de lugar": "adverbio de lugar",
   "com + substantivo (= ter + substantivo)": "com + sustantivo (= ter + sustantivo)",
   cumprimentar: "saludar",
@@ -412,6 +423,91 @@ const CONTEUDO_ES = {
   substantivo: "sustantivo",
   "tempo cronológico (horas, dias da semana, datas)": "tiempo cronológico (horas, días, fechas)",
   "tempo meteorológico": "tiempo meteorológico",
+
+  // ---- Unidades 6-15 ----
+  // Não se traduz o que é matéria de estudo (listas de formas verbais, de
+  // pronomes) nem o que já se lê igual em espanhol: sem entrada, tc() devolve
+  // o português, que é o que se quer nesses casos.
+
+  // Títulos e subtítulos
+  "verbos regulares em -er": "verbos regulares en -er",
+  "verbos irregulares em -er": "verbos irregulares en -er",
+  "verbos regulares e irregulares em -ir; verbos em -air":
+    "verbos regulares e irregulares en -ir; verbos en -air",
+  "estar + gerúndio": "estar + gerundio",
+  "realização prolongada no presente vs. presente do indicativo":
+    "acción en curso vs. presente de indicativo",
+  "presente do indicativo — verbo ter": "presente de indicativo — verbo ter",
+  "pretérito perfeito simples": "pretérito perfecto simple",
+  "pretérito perfeito simples — verbos irregulares": "pretérito perfecto simple — verbos irregulares",
+  "verbos regulares em -ar, -er e -ir": "verbos regulares en -ar, -er e -ir",
+  "verbos irregulares; verbos em -air": "verbos irregulares; verbos en -air",
+  "conjugação pronominal reflexa": "conjugación pronominal refleja",
+  "colocação do pronome": "colocación del pronombre",
+  "verbos regulares e irregulares": "verbos regulares e irregulares",
+  "pretérito imperfeito do indicativo": "pretérito imperfecto de indicativo",
+
+  // Instruções
+  "Complete com os verbos na forma correta:": "Completa con los verbos en la forma correcta:",
+  "Complete as frases com o verbo na forma correta.": "Completa las frases con el verbo en la forma correcta.",
+  "Complete as seguintes frases com os verbos listados na forma correta:":
+    "Completa las siguientes frases con los verbos de la lista en la forma correcta:",
+  "Responda às seguintes perguntas com o verbo na forma correta.":
+    "Responde a las siguientes preguntas con el verbo en la forma correcta.",
+  "Responda às seguintes perguntas:": "Responde a las siguientes preguntas:",
+  "Responda às seguintes perguntas usando só o verbo:":
+    "Responde a las siguientes preguntas usando solo el verbo:",
+  "Responda, usando só o verbo da pergunta:": "Responde usando solo el verbo de la pregunta:",
+  "Responda com o verbo da pergunta.": "Responde con el verbo de la pregunta.",
+  "Faça frases com o verbo na forma correta:": "Haz frases con el verbo en la forma correcta:",
+  "Faça frases com os verbos na forma correta:": "Haz frases con los verbos en la forma correcta:",
+  "Complete com o verbo ter na forma correta.": "Completa con el verbo ter en la forma correcta.",
+  "Ponha o verbo ter na forma correta.": "Pon el verbo ter en la forma correcta.",
+  "Responda com o verbo ter na forma correta.": "Responde con el verbo ter en la forma correcta.",
+  "Complete com os seguintes verbos no p.p.s.:": "Completa con los siguientes verbos en el p.p.s.:",
+  "Complete com os verbos no p.p.s.": "Completa con los verbos en el p.p.s.",
+  "Faça frases com os verbos no p.p.s.": "Haz frases con los verbos en el p.p.s.",
+  "Responda com os verbos indicados no p.p.s. Siga o exemplo:":
+    "Responde con los verbos indicados en el p.p.s. Sigue el ejemplo:",
+  "Escreva frases sobre o passado.": "Escribe frases sobre el pasado.",
+  "O que é que a Ana fez no fim de semana passado?": "¿Qué hizo Ana el fin de semana pasado?",
+  "Coloque corretamente o pronome.": "Coloca correctamente el pronombre.",
+  "Complete com os seguintes verbos no imperfeito:":
+    "Completa con los siguientes verbos en el imperfecto:",
+  "Complete com os verbos no imperfeito:": "Completa con los verbos en el imperfecto:",
+  "O que é que o Pedro fazia quando andava no colégio? Faça frases com os verbos no imperfeito.":
+    "¿Qué hacía el Pedro cuando estaba en el colegio? Haz frases con los verbos en el imperfecto.",
+
+  // Notas
+  "Cada situação tem três respostas: o que faz habitualmente, o que está fazendo agora e a resposta à pergunta final.":
+    "Cada situación tiene tres respuestas: lo que hace habitualmente, lo que está haciendo ahora y la respuesta a la pregunta final.",
+  "O exemplo do livro é: — A viagem foi boa? — Foi, foi.":
+    "El ejemplo del libro es: — A viagem foi boa? — Foi, foi.",
+  "Escreve só a parte que continua a frase começada.":
+    "Escribe solo la parte que continúa la frase empezada.",
+  "No livro há dois espaços à volta do verbo, um antes e outro depois. Aqui escreve-se o conjunto todo já com o pronome no sítio certo.":
+    "En el libro hay dos espacios alrededor del verbo, uno antes y otro después. Aquí se escribe el conjunto entero, ya con el pronombre en su sitio.",
+  "Texto livre — não se corrige automaticamente. Sugestão do livro: (sábado) …acordou às 10h00. Tomou banho, tomou o café da manhã às 11h00 e foi às compras. À tarde leu o jornal e ouviu música. À noite jantou fora, foi ao cinema com os amigos e voltou para casa à meia-noite. (domingo) Dormiu até ao meio-dia e almoçou fora. À tarde arrumou a casa, escreveu aos amigos e telefonou à avó. À noite ficou em casa e foi para a cama cedo.":
+    "Texto libre — no se corrige automáticamente. Sugerencia del libro: (sábado) …acordou às 10h00. Tomou banho, tomou o café da manhã às 11h00 e foi às compras. À tarde leu o jornal e ouviu música. À noite jantou fora, foi ao cinema com os amigos e voltou para casa à meia-noite. (domingo) Dormiu até ao meio-dia e almoçou fora. À tarde arrumou a casa, escreveu aos amigos e telefonou à avó. À noite ficou em casa e foi para a cama cedo.",
+
+  // Títulos de secções de teoria
+  "1.ª pessoa do singular — atenção à grafia": "1.ª persona del singular — atención a la grafía",
+  "Estes verbos só se usam na forma simples:": "Estos verbos solo se usan en la forma simple:",
+  "Verbos em -air": "Verbos en -air",
+  "Pronomes reflexos": "Pronombres reflexivos",
+  "Pronome depois do verbo (ordem normal)": "Pronombre después del verbo (orden normal)",
+  "Pronome antes do verbo": "Pronombre antes del verbo",
+  "Depois de: não / nunca / também / como / como é que / já / ainda não / enquanto / todos / ninguém.":
+    "Después de: não / nunca / também / como / como é que / já / ainda não / enquanto / todos / ninguém.",
+  "Usa-se o pretérito imperfeito para:": "Se usa el pretérito imperfecto para:",
+
+  // Etiquetas dos exemplos
+  agora: "ahora",
+  "ter + substantivo": "ter + sustantivo",
+  "aspecto durativo — acontecimentos a decorrer no passado":
+    "aspecto durativo — hechos en curso en el pasado",
+  "aspecto frequentativo — ações habituais e repetidas no passado":
+    "aspecto frecuentativo — acciones habituales y repetidas en el pasado",
 };
 
 function interpolar(texto, params) {

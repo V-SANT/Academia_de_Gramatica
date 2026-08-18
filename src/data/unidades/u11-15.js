@@ -10,7 +10,7 @@ export const UNIDADES_11_15 = [
       intro: [
         "Ontem à noite eles foram ao cinema.",
         "O filme foi bom.",
-        "No fim-de-semana passado eu fui à praia.",
+        "No fim de semana passado eu fui à praia.",
         "No domingo passado eu estive com os meus amigos.",
         "Ontem eu tive muito trabalho no escritório.",
       ],
@@ -75,7 +75,7 @@ export const UNIDADES_11_15 = [
         items: [
           { n: 2, prompt: "— As férias foram divertidas? — ___, ___.", answers: ["Foram", "foram"] },
           { n: 3, prompt: "— O filme foi bom? — ___, ___.", answers: ["Foi", "foi"] },
-          { n: 4, prompt: "— O espectáculo foi interessante? — ___, ___.", answers: ["Foi", "foi"] },
+          { n: 4, prompt: "— O espetáculo foi interessante? — ___, ___.", answers: ["Foi", "foi"] },
           { n: 5, prompt: "— O exame foi difícil? — ___, ___.", answers: ["Foi", "foi"] },
           { n: 6, prompt: "— Foste bom aluno na escola? — ___, ___.", answers: ["Fui", "fui"] },
           { n: 8, prompt: "— O senhor foi à reunião? — ___, ___.", answers: ["Fui", "fui"] },
@@ -152,8 +152,8 @@ export const UNIDADES_11_15 = [
         {
           examples: [
             "Ontem à noite ficámos em casa.",
-            "Comi tantos chocolates que fiquei mal disposto.",
-            "A camioneta para o Porto já partiu.",
+            "Comi tantos chocolates que passei mal.",
+            "O ônibus para o Porto já partiu.",
             "A Ana nasceu no Porto e sempre lá viveu.",
             "Ao jantar comeram carne e beberam vinho tinto.",
           ],
@@ -186,25 +186,25 @@ export const UNIDADES_11_15 = [
         type: "construct",
         items: [
           { n: 2, cue: "Ouviste as notícias?", answer: "Ouvi." },
-          { n: 3, cue: "Compraram os bilhetes?", answer: "Comprámos." },
+          { n: 3, cue: "Compraram os ingressos?", answer: "Comprámos." },
           { n: 4, cue: "Trabalhaste muito?", answer: "Trabalhei." },
           { n: 5, cue: "Dormiu bem?", answer: "Dormi." },
           { n: 6, cue: "Pagaste as contas?", answer: "Paguei." },
           { n: 7, cue: "Perderam os documentos?", answer: "Perdemos." },
-          { n: 8, cue: "Tomaste o pequeno-almoço?", answer: "Tomei." },
+          { n: 8, cue: "Tomaste o café da manhã?", answer: "Tomei." },
           { n: 9, cue: "Encontraram a rua?", answer: "Encontrámos." },
           { n: 10, cue: "Leste o jornal?", answer: "Li." },
         ],
       },
       {
         id: "12.3",
-        instructions: "O que é que a Ana fez no fim-de-semana passado?",
-        note: "Texto livre — não se corrige automaticamente. Sugestão do livro: (sábado) …acordou às 10h00. Tomou duche, tomou o pequeno-almoço às 11h00 e foi às compras. À tarde leu o jornal e ouviu música. À noite jantou fora, foi ao cinema com os amigos e voltou para casa à meia-noite. (domingo) Dormiu até ao meio-dia e almoçou fora. À tarde arrumou a casa, escreveu aos amigos e telefonou à avó. À noite ficou em casa e foi para a cama cedo.",
+        instructions: "O que é que a Ana fez no fim de semana passado?",
+        note: "Texto livre — não se corrige automaticamente. Sugestão do livro: (sábado) …acordou às 10h00. Tomou banho, tomou o café da manhã às 11h00 e foi às compras. À tarde leu o jornal e ouviu música. À noite jantou fora, foi ao cinema com os amigos e voltou para casa à meia-noite. (domingo) Dormiu até ao meio-dia e almoçou fora. À tarde arrumou a casa, escreveu aos amigos e telefonou à avó. À noite ficou em casa e foi para a cama cedo.",
         type: "open",
         items: [
           {
             n: 1,
-            cue: "No sábado de manhã a Ana acordou às 10h00… — manhã: tomar duche / tomar o pequeno-almoço às 11h00 / ir às compras · tarde: ler o jornal / ouvir música · noite: jantar fora / ir ao cinema com os amigos / voltar para casa à meia-noite",
+            cue: "No sábado de manhã a Ana acordou às 10h00… — manhã: tomar banho / tomar o café da manhã às 11h00 / ir às compras · tarde: ler o jornal / ouvir música · noite: jantar fora / ir ao cinema com os amigos / voltar para casa à meia-noite",
           },
           {
             n: 2,
@@ -221,7 +221,7 @@ export const UNIDADES_11_15 = [
     subtitle: "pretérito perfeito simples",
     theory: {
       intro: [
-        "O Pedro fez anos no fim-de-semana passado.",
+        "O Pedro fez anos no fim de semana passado.",
         "Os amigos deram-lhe os parabéns e trouxeram-lhe presentes.",
       ],
       table: null,
@@ -247,11 +247,11 @@ export const UNIDADES_11_15 = [
         },
         {
           examples: [
-            "Como é que vieste? — Vim de autocarro.",
+            "Como é que vieste? — Vim de ônibus.",
             "Vão a pé? — Não, vamos de táxi.",
             "Ele nunca quis estudar línguas.",
             "Puseram os casacos e saíram.",
-            "Ontem não pude ir com vocês, porque tinha de estudar.",
+            "Ontem não pude ir com vocês, porque tinha que estudar.",
             "O que é que ele disse? — Disse que estava muito cansado.",
             "A minha mãe nunca soube falar inglês.",
             "Ontem à noite não saí. Fiquei em casa.",
@@ -372,7 +372,7 @@ export const UNIDADES_11_15 = [
           examples: [
             "Nunca me lembro do teu número de telefone.",
             "Vocês deitam-se muito tarde? — Não, deitamo-nos sempre cedo.",
-            "Ontem esqueci-me do chapéu de chuva na escola.",
+            "Ontem esqueci-me do guarda-chuva na escola.",
             "Eles já se encontraram uma vez.",
           ],
         },
@@ -381,13 +381,13 @@ export const UNIDADES_11_15 = [
     exercises: [
       {
         id: "14.1",
-        instructions: "Coloque correctamente o pronome.",
+        instructions: "Coloque corretamente o pronome.",
         note: "No livro há dois espaços à volta do verbo, um antes e outro depois. Aqui escreve-se o conjunto todo já com o pronome no sítio certo.",
         type: "blank",
         items: [
           { n: 3, prompt: "A Ana ___ em 5 minutos. (vestir-se)", answers: ["veste-se"] },
           { n: 4, prompt: "À tarde eles ___ sempre no café. (encontrar-se)", answers: ["encontram-se"] },
-          { n: 5, prompt: "Ninguém ___ do chapéu de chuva? (esquecer-se)", answers: ["se esqueceu"] },
+          { n: 5, prompt: "Ninguém ___ do guarda-chuva? (esquecer-se)", answers: ["se esqueceu"] },
           { n: 6, prompt: "Como ___ a professora? (chamar-se)", answers: ["se chama"] },
           { n: 7, prompt: "Todos ___ do que aconteceu. (lembrar-se)", answers: ["se lembram"] },
           { n: 8, prompt: "Vocês ___ muito tarde? (deitar-se)", answers: ["deitam-se"] },
@@ -416,7 +416,7 @@ export const UNIDADES_11_15 = [
           { n: 6, prompt: "— Lembras-te da Ana? — ___ muito bem.", answers: ["lembro-me"] },
           {
             n: 7,
-            prompt: "— Onde é que se esqueceu do chapéu? — ___ do chapéu no autocarro.",
+            prompt: "— Onde é que se esqueceu do chapéu? — ___ do chapéu no ônibus.",
             answers: ["esqueci-me"],
           },
           { n: 8, prompt: "— Já se lavaram, meninos? — Ainda não ___.", answers: ["nos lavámos"] },
@@ -460,12 +460,12 @@ export const UNIDADES_11_15 = [
           heading: "Usa-se o pretérito imperfeito para:",
           examples: [
             {
-              text: "Antigamente moravam numa vivenda.",
+              text: "Antigamente moravam numa casa.",
               tag: "aspecto durativo — acontecimentos a decorrer no passado",
             },
             {
               text: "Depois da escola faziam sempre os trabalhos de casa.",
-              tag: "aspecto frequentativo — acções habituais e repetidas no passado",
+              tag: "aspecto frequentativo — ações habituais e repetidas no passado",
             },
           ],
         },
@@ -507,11 +507,11 @@ export const UNIDADES_11_15 = [
         items: [
           { n: 2, cue: "fazer as camas", answer: "Fazia as camas." },
           { n: 3, cue: "arrumar a roupa", answer: "Arrumava a roupa." },
-          { n: 4, cue: "tomar duche", answer: "Tomava duche." },
+          { n: 4, cue: "tomar banho", answer: "Tomava banho." },
           {
             n: 5,
-            cue: "depois descer até ao 1.º andar para tomar o pequeno-almoço",
-            answer: "Depois descia até ao 1.º andar para tomar o pequeno-almoço.",
+            cue: "depois descer até ao 1.º andar para tomar o café da manhã",
+            answer: "Depois descia até ao 1.º andar para tomar o café da manhã.",
           },
           { n: 6, cue: "comer em silêncio", answer: "Comia em silêncio." },
           { n: 7, cue: "assistir à missa das 7h", answer: "Assistia à missa das 7h00./Assistia à missa das 7h." },
@@ -557,7 +557,7 @@ export const UNIDADES_11_15 = [
           { n: 2, prompt: "Por isso, ___ (levantar-se) muito cedo para ir à escola.", answers: ["levantavam-se"] },
           {
             n: 3,
-            prompt: "___ (sair) de casa às 7h e ___ (ir) de autocarro até à cidade.",
+            prompt: "___ (sair) de casa às 7h e ___ (ir) de ônibus até à cidade.",
             answers: ["Saíam", "iam"],
           },
           { n: 4, prompt: "Na escola, ___ (ter) aulas das 8h até às 13h.", answers: ["tinham"] },

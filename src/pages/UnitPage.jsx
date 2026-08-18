@@ -115,29 +115,41 @@ export default function UnitPage({ unidadeN, unidades, progresso, username, onPr
     setRiscadas(todas[unidade.n] || {});
   }
 
+  // Corrige um exercício e grava-o. Devolve o mapa de resultados desse bloco.
+  function avaliar(exercicio) {
+    const escritas = respostas[exercicio.id] || {};
+    const doExercicio = {};
+
+    for (const item of exercicio.items) {
+      if (exercicio.type === "blank") {
+        doExercicio[item.n] = checkBlankItem(item.answers, escritas[item.n] || []);
+      } else if (exercicio.type === "construct") {
+        doExercicio[item.n] = checkConstructItem(item.answer, (escritas[item.n] || [])[0] || "");
+      }
+    }
+
+    recordExerciseResults(username, unidade.n, exercicio.id, doExercicio, escritas);
+    return doExercicio;
+  }
+
+  // Corrige só um bloco, mantendo o que já estava corrigido nos outros.
+  function corrigirExercicio(exercicio) {
+    if (exercicio.type === "open") return;
+    const doExercicio = avaliar(exercicio);
+    setResultados((anteriores) => ({ ...anteriores, [exercicio.id]: doExercicio }));
+    onProgresso(); // actualiza a sidebar e os desbloqueios
+  }
+
   function corrigir() {
     const novosResultados = {};
-
     for (const exercicio of unidade.exercises) {
       if (exercicio.type === "open") continue;
-      const doExercicio = {};
-      const escritas = respostas[exercicio.id] || {};
-
-      for (const item of exercicio.items) {
-        if (exercicio.type === "blank") {
-          doExercicio[item.n] = checkBlankItem(item.answers, escritas[item.n] || []);
-        } else if (exercicio.type === "construct") {
-          doExercicio[item.n] = checkConstructItem(item.answer, (escritas[item.n] || [])[0] || "");
-        }
-      }
-
-      novosResultados[exercicio.id] = doExercicio;
-      recordExerciseResults(username, unidade.n, exercicio.id, doExercicio, escritas);
+      novosResultados[exercicio.id] = avaliar(exercicio);
     }
 
     setResultados(novosResultados);
     setAcabouDeCorrigir(true);
-    onProgresso(); // actualiza a sidebar e os desbloqueios
+    onProgresso();
   }
 
   function limpar() {
@@ -175,7 +187,7 @@ export default function UnitPage({ unidadeN, unidades, progresso, username, onPr
                 {t("comum.unidade", { n: unidade.n })}
               </p>
               <h1 className="text-xl font-bold leading-tight text-noite-900 sm:text-2xl dark:text-white">
-                {unidade.title}
+                {tc(unidade.title)}
               </h1>
               {unidade.subtitle && (
                 <p className="mt-0.5 text-sm text-noite-500 dark:text-noite-400">{tc(unidade.subtitle)}</p>
@@ -247,6 +259,7 @@ export default function UnitPage({ unidadeN, unidades, progresso, username, onPr
               results={resultados[exercicio.id] || null}
               riscadas={riscadas[exercicio.id] || []}
               onRiscar={aoRiscar}
+              onCorrigir={corrigirExercicio}
               onChange={(itemN, slot, valor) => aoEscrever(exercicio.id, itemN, slot, valor)}
             />
           </div>

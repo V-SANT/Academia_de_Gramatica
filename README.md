@@ -1,11 +1,13 @@
-# Academia de Gramática — app de prática (piloto)
+# Academia de Gramática — app de prática
 
 App local para praticar os exercícios da cartilha "Gramática Ativa 1" (Lidel),
 com teoria e exercícios por unidade, correção automática, e progresso guardado
 no navegador (sem servidor, sem base de dados).
 
-Este é o **piloto**: só tem as Unidades 1 a 5, para validar o mecanismo antes
-de transcrever as 50 unidades completas.
+Estão transcritas as **Unidades 1 a 15** das 50. O conteúdo é adaptado ao
+**português do Brasil** — gerúndio (`está fazendo`, não `está a fazer`),
+ortografia pós-1990 e vocabulário brasileiro. As formas de `tu` e a colocação
+do pronome ficam como o livro as ensina.
 
 ## Interface
 
@@ -23,6 +25,10 @@ de transcrever as 50 unidades completas.
 - **Banco de palavras clicável:** nos exercícios com lista de verbos, clicar
   numa palavra risca-a (e outro clique desrisca-a), para ir marcando as que já
   se usaram. É só apoio visual: não conta para a nota.
+- **Correção por exercício ou pela unidade toda** — dá para ir corrigindo aos
+  poucos, sem ter de responder a tudo primeiro.
+- **As respostas erradas ficam escondidas** atrás de um "ver resposta", para
+  dar espaço a tentar outra vez antes de espreitar.
 - **Tema claro / escuro / sistema**, escolhido em Definições e guardado no
   navegador. Um script no `index.html` aplica-o antes do primeiro paint para não
   haver "flash" branco.
@@ -67,7 +73,9 @@ Abre o endereço que aparece no terminal (normalmente `http://localhost:5173`).
 
 ```
 src/
-  data/units.js      conteúdo (teoria + exercícios + respostas) das Unidades 1-5
+  data/units.js      ponto de entrada do conteúdo + formato dos dados e política
+                     de adaptação ao português do Brasil (documentados no topo)
+  data/unidades/     conteúdo por lotes: u01-05.js, u06-10.js, u11-15.js
   lib/grading.js     correção (tolerante a acentos/maiúsculas/pontuação)
   lib/storage.js     perfis, progresso, exportar/importar (tudo em localStorage)
   lib/progress.js    percentagem por unidade e regra dos 80% que desbloqueia a seguinte
@@ -84,9 +92,12 @@ Para traduzir texto novo do livro, acrescenta a frase portuguesa (tal como está
 em `units.js`) ao dicionário `CONTEUDO_ES` de `src/lib/i18n.js`. Sem tradução, a
 frase fica em português — nunca parte nada.
 
-Para adicionar mais unidades, basta seguir o mesmo formato em `src/data/units.js`
-— não é preciso tocar nos componentes: o menu, os cadeados e as percentagens
-saem todos daí.
+Para adicionar mais unidades não é preciso tocar nos componentes: o menu, os
+cadeados e as percentagens saem todos do conteúdo. O método completo — como
+preparar as páginas do livro, como consultar a chave das respostas e como
+verificar o resultado — está em [`scripts/README.md`](scripts/README.md), e
+[`PROMPT-UNIDADES.md`](PROMPT-UNIDADES.md) traz o prompt de arranque para
+continuar a transcrição noutra sessão.
 
 ## Publicar / partilhar (mais tarde)
 

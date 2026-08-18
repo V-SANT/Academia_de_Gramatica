@@ -16,7 +16,32 @@
 //   exercises[].type === "open"      -> não tem resposta fixa (é pessoal); não se corrige automaticamente
 //
 // Para traduzir instruções/notas/etiquetas novas para espanhol, acrescenta a
-// frase portuguesa ao dicionário CONTEUDO_ES em src/lib/i18n.js.
+// frase portuguesa ao dicionário CONTEUDO_ES em src/lib/i18n.js. Não é preciso
+// traduzir listas de formas verbais nem frases que se leem igual: sem entrada
+// no dicionário, tc() devolve o português.
+//
+// ADAPTAÇÃO AO PORTUGUÊS DO BRASIL
+// O livro é de português europeu; o conteúdo aqui é adaptado ao do Brasil.
+// O que se adapta:
+//   · gerúndio          "está a fazer" -> "está fazendo"
+//   · ortografia de 1990  correcta->correta, acção->ação, vêem->veem,
+//                         fim-de-semana->fim de semana, meses e estações em
+//                         minúscula (Abril->abril, Inverno->inverno)
+//   · vocabulário       autocarro->ônibus, comboio->trem, camioneta->ônibus,
+//                       pequeno-almoço->café da manhã, tomar duche->tomar banho,
+//                       chapéu de chuva->guarda-chuva, camisola->blusa,
+//                       pasta->mochila, sumo->suco, rapariga->garota,
+//                       apanhar->pegar, divisões->cômodos, vivenda->casa,
+//                       bilhetes->ingressos, ficar mal disposto->passar mal
+//   · "ter de" -> "ter que"
+// O que NÃO se adapta (decisão do utilizador):
+//   · as formas de tu (és, tens, foste…) — o livro ensina-as e ficam
+//   · a colocação do pronome — a Unidade 14 ensina a regra europeia (ênclise
+//     por omissão); no Brasil a próclise é a norma falada
+//   · "ter frio/fome/sede" — são os exemplos que treinam o verbo ter na
+//     Unidade 10; em vez de se trocarem, há lá uma secção com o "estar com"
+// Quando a chave do livro e a forma adaptada divergirem numa resposta
+// corrigível, aceitam-se as duas com "forma A/forma B".
 
 // Com extensão ".js" de propósito: assim este ficheiro também se pode importar
 // directamente com `node`, o que permite correr scripts que conferem o

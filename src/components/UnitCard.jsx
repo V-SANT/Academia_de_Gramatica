@@ -75,7 +75,7 @@ export default function UnitCard({ unidade, stats, desbloqueada, emFalta }) {
             (desbloqueada ? "text-noite-900 dark:text-white" : "text-noite-500 dark:text-noite-500")
           }
         >
-          {unidade.title}
+          {tc(unidade.title)}
         </h3>
         {unidade.subtitle && (
           <p className="mt-0.5 text-sm text-noite-500 dark:text-noite-400">{tc(unidade.subtitle)}</p>
