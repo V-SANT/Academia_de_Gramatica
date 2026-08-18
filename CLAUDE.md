@@ -4,8 +4,9 @@ App para estudar português a partir da cartilha "Gramática Ativa 1" (Lidel).
 React 19 + Vite + Tailwind v4. Sem backend: perfis e progresso vivem no
 localStorage. O `dist/` é um site estático.
 
-**Estado:** 35 das 50 unidades transcritas (`src/data/unidades/u01-05.js`,
-`u06-10.js`, `u11-15.js`, `u16-20.js`, `u21-25.js`, `u26-30.js`, `u31-35.js`).
+**Estado:** 45 das 50 unidades transcritas (`src/data/unidades/u01-05.js`,
+`u06-10.js`, `u11-15.js`, `u16-20.js`, `u21-25.js`, `u26-30.js`, `u31-35.js`,
+`u36-40.js`, `u41-45.js`).
 
 ## O utilizador trata dos commits e do deploy
 

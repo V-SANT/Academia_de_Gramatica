@@ -499,7 +499,7 @@ export const UNIDADES_01_05 = [
         items: [
           { n: 1, prompt: "Ela ___ piano muito bem. (tocar)", answers: ["toca"] },
           { n: 2, prompt: "Nós ___ português. (falar)", answers: ["falamos"] },
-          { n: 3, prompt: "Eu não ___ aos fins-de-semana. (trabalhar)", answers: ["trabalho"] },
+          { n: 3, prompt: "Eu não ___ aos fins de semana. (trabalhar)", answers: ["trabalho"] },
           { n: 4, prompt: "O Pedro ___ de futebol. (gostar)", answers: ["gosta"] },
           { n: 5, prompt: "Eles ___ na universidade. (andar)", answers: ["andam"] },
           { n: 6, prompt: "O Pedro e a Ana ___ medicina. (estudar)", answers: ["estudam"] },

@@ -906,6 +906,211 @@ export const CONTEUDO_ES = {
   "dar ordens": "dar órdenes",
   "dar conselhos": "dar consejos",
   "dar sugestões": "dar sugerencias",
+
+  // ---- Unidades 36-40 ----
+  // Sem entrada, de propósito: os títulos que são as próprias formas em estudo
+  // ("me, te, o, a, etc.", "me, te, lhe; mo, ma, lho, lha") e a frase-exemplo
+  // "vendem-se apartamentos".
+
+  // Títulos e subtítulos
+  "pronomes pessoais complemento direto": "pronombres personales de complemento directo",
+  "pronomes complemento indireto e contrações":
+    "pronombres de complemento indirecto y contracciones",
+  "voz passiva": "voz pasiva",
+  "ser + particípio passado": "ser + participio pasado",
+  "estar + particípio passado": "estar + participio pasado",
+  "passiva de resultado e particípios duplos": "pasiva de resultado y participios dobles",
+  "palavra apassivante se": "el se pasivo",
+
+  // Instruções
+  "Complete com as formas corretas dos pronomes.":
+    "Completa con las formas correctas de los pronombres.",
+  "Substitua o complemento direto pelo pronome correspondente e faça as alterações necessárias.":
+    "Sustituye el complemento directo por el pronombre correspondiente y haz los cambios necesarios.",
+  "Complete com as formas contraídas dos pronomes.":
+    "Completa con las formas contraídas de los pronombres.",
+  "Substitua o complemento direto e o indireto pelo pronome correspondente. Depois faça a contração.":
+    "Sustituye el complemento directo y el indirecto por el pronombre correspondiente. Después haz la contracción.",
+  "Faça frases na passiva.": "Haz frases en pasiva.",
+  "Ponha as frases na passiva.": "Pon las frases en pasiva.",
+  "Complete com o verbo na passiva.": "Completa con el verbo en pasiva.",
+  "Responda com uma frase na passiva.": "Responde con una frase en pasiva.",
+  "Complete as frases com estar + particípio passado, exprimindo o resultado da ação.":
+    "Completa las frases con estar + participio pasado, expresando el resultado de la acción.",
+  "Faça frases com estar + particípio passado.": "Haz frases con estar + participio pasado.",
+  "Transforme as frases destacadas em frases passivas com o auxiliar estar + particípio passado.":
+    "Transforma las frases destacadas en frases pasivas con el auxiliar estar + participio pasado.",
+  "Faça frases com a palavra apassivante se.": "Haz frases con el se pasivo.",
+  "Transforme as frases na ativa em frases com a palavra apassivante se.":
+    "Transforma las frases en activa en frases con el se pasivo.",
+  "Transforme as frases na ativa em frases passivas com a palavra apassivante se.":
+    "Transforma las frases en activa en frases pasivas con el se pasivo.",
+  "Transforme as frases na passiva (ser + particípio passado) em frases com a palavra apassivante se.":
+    "Transforma las frases en pasiva (ser + participio pasado) en frases con el se pasivo.",
+
+  // Notas
+  "O exemplo do livro é: Eu conheço a Ana e a Ana conhece-me.":
+    "El ejemplo del libro es: Eu conheço a Ana e a Ana conhece-me.",
+  "O exemplo do livro é: Fomos buscar os nossos amigos à estação. → Fomos buscá-los à estação.":
+    "El ejemplo del libro es: Fomos buscar os nossos amigos à estação. → Fomos buscá-los à estação.",
+  "O exemplo do livro é: Ajudas-me a fazer o exercício? Sozinho não consigo.":
+    "El ejemplo del libro es: Ajudas-me a fazer o exercício? Sozinho não consigo.",
+  "O exemplo do livro é: (Eu preciso do dicionário). Podes emprestar-me o dicionário?":
+    "El ejemplo del libro es: (Eu preciso do dicionário). Podes emprestar-me o dicionário?",
+  "O exemplo do livro é: Esse livro é meu. Dá-mo.":
+    "El ejemplo del libro es: Esse livro é meu. Dá-mo.",
+  "São três passos: primeiro só o complemento direto, depois só o indireto e por fim os dois contraídos. O exemplo do livro é: O Pedro emprestou as cassetes à Ana. → O Pedro emprestou-as à Ana. / O Pedro emprestou-lhe as cassetes. / O Pedro emprestou-lhas.":
+    "Son tres pasos: primero solo el complemento directo, después solo el indirecto y al final los dos contraídos. El ejemplo del libro es: O Pedro emprestou as cassetes à Ana. → O Pedro emprestou-as à Ana. / O Pedro emprestou-lhe as cassetes. / O Pedro emprestou-lhas.",
+  "Exceções: Ele quer os chocolates. → Ele quere-os. / Tu tens a minha caneta. → Tu tem-la.":
+    "Excepciones: Ele quer os chocolates. → Ele quere-os. / Tu tens a minha caneta. → Tu tem-la.",
+  "Quando na ativa o sujeito é indeterminado e não está expresso, omite-se o agente da passiva.":
+    "Cuando en la activa el sujeto es indeterminado y no está expreso, se omite el agente de la pasiva.",
+  "O exemplo do livro é: O jornalista Rui Silva escreveu o artigo. → O artigo foi escrito pelo jornalista Rui Silva.":
+    "El ejemplo del libro es: O jornalista Rui Silva escreveu o artigo. → O artigo foi escrito pelo jornalista Rui Silva.",
+  "Aqui o agente não se diz, porque na ativa o sujeito é indeterminado. O exemplo do livro é: Chamaram a ambulância imediatamente. → A ambulância foi chamada imediatamente.":
+    "Aquí no se dice el agente, porque en la activa el sujeto es indeterminado. El ejemplo del libro es: Chamaram a ambulância imediatamente. → A ambulância foi chamada imediatamente.",
+  "O exemplo do livro é: Onde está a minha bicicleta? (roubar) → Foi roubada?!":
+    "El ejemplo del libro es: Onde está a minha bicicleta? (roubar) → Foi roubada?!",
+  "O exemplo do livro é: — Foste tu que pagaste o jantar? — Sim, sim. O jantar foi pago por mim.":
+    "El ejemplo del libro es: — Foste tu que pagaste o jantar? — Sim, sim. O jantar foi pago por mim.",
+  "Com ter usa-se o particípio regular, que é invariável; com ser e estar usa-se o irregular, que concorda em gênero e número com o sujeito. O livro (português europeu) dá aceite onde no Brasil se diz aceito.":
+    "Con ter se usa el participio regular, que es invariable; con ser y estar se usa el irregular, que concuerda en género y número con el sujeto. El libro (portugués europeo) trae aceite donde en Brasil se dice aceito.",
+  "O exemplo do livro é: Já foi tudo combinado. Portanto, está tudo combinado.":
+    "El ejemplo del libro es: Já foi tudo combinado. Portanto, está tudo combinado.",
+  "O exemplo do livro é: Já paguei a conta. → A conta está paga.":
+    "El ejemplo del libro es: Já paguei a conta. → A conta está paga.",
+  "No livro já vêm resolvidos o item 1 (Quando me sentei, vi que tinha rompido a saia. → …vi que a saia estava rota.) e o 2 (A minha blusa de lã já foi lavada? → A minha blusa de lã já está lavada?).":
+    "En el libro ya vienen resueltos el ítem 1 (Quando me sentei, vi que tinha rompido a saia. → …vi que a saia estava rota.) y el 2 (A minha blusa de lã já foi lavada? → A minha blusa de lã já está lavada?).",
+  "O exemplo do livro é: alugar / quartos → Alugam-se quartos.":
+    "El ejemplo del libro es: alugar / quartos → Alugam-se quartos.",
+  "Escreve só a parte que continua a frase começada. O exemplo do livro é: Em Portugal as pessoas veem muito televisão. → Em Portugal vê-se muito televisão.":
+    "Escribe solo la parte que continúa la frase empezada. El ejemplo del libro es: Em Portugal as pessoas veem muito televisão. → Em Portugal vê-se muito televisão.",
+  "O exemplo do livro é: Inauguraram ontem a ponte. → Inaugurou-se ontem a ponte.":
+    "El ejemplo del libro es: Inauguraram ontem a ponte. → Inaugurou-se ontem a ponte.",
+  "O exemplo do livro é: A alface é lavada e temperada em seguida. → Lava-se a alface e tempera-se em seguida.":
+    "El ejemplo del libro es: A alface é lavada e temperada em seguida. → Lava-se a alface e tempera-se em seguida.",
+
+  // Títulos de secções de teoria
+  "Complemento direto": "Complemento directo",
+  "Formas verbais terminadas em -r, -s, -z: o pronome fica -lo, -la, -los, -las":
+    "Formas verbales terminadas en -r, -s, -z: el pronombre pasa a -lo, -la, -los, -las",
+  "Formas verbais terminadas em -ão, -õe, -m: o pronome fica -no, -na, -nos, -nas":
+    "Formas verbales terminadas en -ão, -õe, -m: el pronombre pasa a -no, -na, -nos, -nas",
+  "Complemento indireto": "Complemento indirecto",
+  "Contrações — complemento indireto + complemento direto":
+    "Contracciones — complemento indirecto + complemento directo",
+  "Na voz passiva usamos:": "En la voz pasiva usamos:",
+  Presente: "Presente",
+  Passado: "Pasado",
+  Futuro: "Futuro",
+  "Omissão do agente da passiva": "Omisión del agente de la pasiva",
+  "Passiva de resultado — estar + particípio passado":
+    "Pasiva de resultado — estar + participio pasado",
+  "Particípios duplos — regular (com ter) · irregular (com ser e estar)":
+    "Participios dobles — regular (con ter) · irregular (con ser y estar)",
+  "Usamos a palavra apassivante se:": "Usamos el se pasivo:",
+
+  // ---- Unidades 41-45 ----
+  // Sem entrada, de propósito: as próprias preposições, locuções e formas em
+  // estudo ("a, de, em, para, por", "em cima de · dentro de · debaixo de",
+  // "quem, o que, qual…", "algum, nenhum, todo…") — é o que se está a aprender.
+
+  // Títulos e subtítulos
+  "preposições de movimento": "preposiciones de movimiento",
+  "preposições e locuções de lugar": "preposiciones y locuciones de lugar",
+  "preposições de tempo": "preposiciones de tiempo",
+  interrogativos: "interrogativos",
+  indefinidos: "indefinidos",
+
+  // Instruções
+  "Complete com a (contraído ou não com o artigo) ou para.":
+    "Completa con a (contraído o no con el artículo) o para.",
+  "Complete com para ou por (contraído ou não com o artigo).":
+    "Completa con para o por (contraído o no con el artículo).",
+  "Complete com de (contraído ou não com o artigo) ou em (contraído com o artigo).":
+    "Completa con de (contraído o no con el artículo) o em (contraído con el artículo).",
+  "Faça frases, conjugando os verbos e usando as preposições contraídas ou não com o artigo.":
+    "Haz frases, conjugando los verbos y usando las preposiciones contraídas o no con el artículo.",
+  "Complete com: à, à frente de, ao lado de, debaixo de, dentro de, em, em frente de, entre (contraídas ou não com o artigo).":
+    "Completa con: à, à frente de, ao lado de, debaixo de, dentro de, em, em frente de, entre (contraídas o no con el artículo).",
+  "Observe a gravura e complete as frases com preposições e locuções (contraídas ou não com o artigo).":
+    "Observa el dibujo y completa las frases con preposiciones y locuciones (contraídas o no con el artículo).",
+  "Observe a fotografia e complete as frases com preposições e locuções (contraídas ou não com o artigo).":
+    "Observa la fotografía y completa las frases con preposiciones y locuciones (contraídas o no con el artículo).",
+  "Preencha com a, de ou em, contraídos ou não com o artigo.":
+    "Rellena con a, de o em, contraídos o no con el artículo.",
+  "Complete com a ou em contraídos com o artigo.":
+    "Completa con a o em contraídos con el artículo.",
+  "Complete com a, de ou em (contraídos ou não com o artigo).":
+    "Completa con a, de o em (contraídos o no con el artículo).",
+  "Complete com: quantos / quantas / como / onde / qual / o que / de que cor / quanto tempo / quem / a que horas.":
+    "Completa con: quantos / quantas / como / onde / qual / o que / de que cor / quanto tempo / quem / a que horas.",
+  "Faça perguntas para obter como resposta a parte destacada da frase.":
+    "Haz preguntas cuya respuesta sea la parte destacada de la frase.",
+  "Complete com onde ou preposição + onde.": "Completa con onde o preposición + onde.",
+  "Complete com quem ou preposição + quem.": "Completa con quem o preposición + quem.",
+  "Complete com o que, que ou preposição + que.": "Completa con o que, que o preposición + que.",
+  "Complete com quanto, quantos ou quantas.": "Completa con quanto, quantos o quantas.",
+  "Complete com os indefinidos variáveis e invariáveis.":
+    "Completa con los indefinidos variables e invariables.",
+  "Complete com os antônimos dos indefinidos destacados, fazendo as alterações necessárias.":
+    "Completa con los antónimos de los indefinidos destacados, haciendo los cambios necesarios.",
+
+  // Notas
+  "Combinações: a + a = à · a + o = ao · a + as = às · a + os = aos.":
+    "Combinaciones: a + a = à · a + o = ao · a + as = às · a + os = aos.",
+  "Combinações: por + a = pela · por + o = pelo · por + as = pelas · por + os = pelos.":
+    "Combinaciones: por + a = pela · por + o = pelo · por + as = pelas · por + os = pelos.",
+  "Combinações: de + a = da · de + o = do · de + as = das · de + os = dos.":
+    "Combinaciones: de + a = da · de + o = do · de + as = das · de + os = dos.",
+  "Combinações: em + a = na · em + o = no · em + as = nas · em + os = nos.":
+    "Combinaciones: em + a = na · em + o = no · em + as = nas · em + os = nos.",
+  "O exemplo do livro é: (eu / ir / carro / emprego) → Eu vou de carro para o emprego.":
+    "El ejemplo del libro es: (eu / ir / carro / emprego) → Eu vou de carro para o emprego.",
+  "No livro cada frase tem um desenho; aqui a frase já diz o suficiente para escolher a preposição.":
+    "En el libro cada frase lleva un dibujo; aquí la frase ya dice lo suficiente para elegir la preposición.",
+  "A gravura do livro é uma sala de estar: o sofá em frente da televisão, o gato debaixo da mesa, os quadros na parede, a avó com o cão atrás dela.":
+    "El dibujo del libro es un salón: el sofá frente a la televisión, el gato debajo de la mesa, los cuadros en la pared, la abuela con el perro detrás de ella.",
+  "Na fotografia do livro estão de pé, da esquerda para a direita, o avô António, a D. Helena e o Afonso; sentados no sofá, o João, a Ana e o Pedro.":
+    "En la fotografía del libro están de pie, de izquierda a derecha, el abuelo António, la D. Helena y el Afonso; sentados en el sofá, el João, la Ana y el Pedro.",
+  "O exemplo do livro é: A viagem foi cansativa. → Como foi a viagem?":
+    "El ejemplo del libro es: A viagem foi cansativa. → Como foi a viagem?",
+  "É que vem depois do interrogativo (antes do verbo) ou depois do substantivo que o acompanha.":
+    "É que va después del interrogativo (antes del verbo) o después del sustantivo que lo acompaña.",
+  "O exemplo do livro é: — Encontraste alguém no café? — Não, não encontrei ninguém.":
+    "El ejemplo del libro es: — Encontraste alguém no café? — Não, não encontrei ninguém.",
+  "No livro já vêm resolvidos os itens 1 (Está alguém à nossa espera? → Não está ninguém à nossa espera?), 2 (Ele comeu tudo. → Ele não comeu nada.) e 3 (Encontrámos muitas pessoas conhecidas. → Encontrámos poucas pessoas conhecidas.).":
+    "En el libro ya vienen resueltos los ítems 1 (Está alguém à nossa espera? → Não está ninguém à nossa espera?), 2 (Ele comeu tudo. → Ele não comeu nada.) y 3 (Encontrámos muitas pessoas conhecidas. → Encontrámos poucas pessoas conhecidas.).",
+
+  // Títulos de secções de teoria
+  "a — ir / vir / voltar a… (curta permanência)": "a — ir / vir / voltar a… (estancia corta)",
+  "para — ir / vir / voltar para… (longa permanência), direção e destino":
+    "para — ir / vir / voltar para… (estancia larga), dirección y destino",
+  "por — através de, perto de": "por — a través de, cerca de",
+  "de — origem ou proveniência; meios de transporte":
+    "de — origen o procedencia; medios de transporte",
+  "em + artigo — meio de transporte determinado": "em + artigo — medio de transporte determinado",
+  "A expressão de realce é que": "La expresión de realce é que",
+  "Indefinidos variáveis — pessoas ou coisas": "Indefinidos variables — personas o cosas",
+  "Indefinidos invariáveis": "Indefinidos invariables",
+  "quem…? (pessoas)": "quem…? (personas)",
+  "quando…? (tempo) · onde…? (local)": "quando…? (tiempo) · onde…? (lugar)",
+
+  // Etiquetas dos exemplos
+  local: "lugar",
+  "datas (com dia do mês)": "fechas (con día del mes)",
+  "dias da semana (ação habitual)": "días de la semana (acción habitual)",
+  horas: "horas",
+  "partes do dia": "partes del día",
+  "datas (com dia)": "fechas (con día)",
+  "dias da semana (ação pontual)": "días de la semana (acción puntual)",
+  "épocas festivas": "épocas festivas",
+  "estações do ano": "estaciones del año",
+  anos: "años",
+  séculos: "siglos",
+  "localização temporal": "localización temporal",
+  "tempo aproximado": "tiempo aproximado",
+  "período de tempo": "período de tiempo",
 };
 
 function interpolar(texto, params) {

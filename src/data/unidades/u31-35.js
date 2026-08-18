@@ -650,7 +650,7 @@ export const UNIDADES_31_35 = [
             "— Vais comigo à festa? — Sim, vou contigo.",
             "— Espere por mim. Desço consigo no elevador.",
             "— Meus senhores, posso contar convosco para a inauguração? — Claro. Conte conosco.",
-            "— Trouxe este presente para ti. — Para mim? Muito obrigado.",
+            "— Trouxe esta lembrança para ti. — Para mim? Muito obrigado.",
             "— Estivemos falando de si esta manhã, D. Fátima.",
             "— Tens visto a Joana? — Falei com ela na semana passada.",
             "— Eles moram perto de nós.",

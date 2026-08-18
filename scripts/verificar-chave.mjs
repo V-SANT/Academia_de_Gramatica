@@ -32,6 +32,18 @@ const porUnidade = {};
         exercicios[actual] = {};
         continue;
       }
+      // Exercícios com grupos "a) 1. … 2. …": cada grupo é um exercício à
+      // parte, com o id do exercício seguido da letra (44.3a, 44.3b, …).
+      const grupo = linha.match(/^([a-z])\)\s+(.*)$/);
+      if (grupo && actual) {
+        const idGrupo = actual + grupo[1];
+        exercicios[idGrupo] = {};
+        for (const pedaco of grupo[2].split(/\s{2,}/)) {
+          const m = pedaco.match(/^(\d+)\.\s*(.*)$/);
+          if (m) exercicios[idGrupo][m[1]] = m[2];
+        }
+        continue;
+      }
       const item = linha.match(/^(\d+)\.\s+(.*)$/);
       if (item && actual) {
         exercicios[actual][item[1]] = item[2];
@@ -59,7 +71,7 @@ const normalizar = (s) =>
     .normalize("NFD")
     .replace(/[̀-ͯ]/g, "")
     .toLowerCase()
-    .replace(/[.,!?;:()]/g, "")
+    .replace(/[.,!?;:()→]/g, "") // a chave usa "→" entre os passos das transformações
     .replace(/\s+/g, " ")
     .trim();
 

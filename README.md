@@ -4,7 +4,7 @@ App local para praticar os exercícios da cartilha "Gramática Ativa 1" (Lidel),
 com teoria e exercícios por unidade, correção automática, e progresso guardado
 no navegador (sem servidor, sem base de dados).
 
-Estão transcritas as **Unidades 1 a 35** das 50. O conteúdo é adaptado ao
+Estão transcritas as **Unidades 1 a 45** das 50. O conteúdo é adaptado ao
 **português do Brasil** — gerúndio (`está fazendo`, não `está a fazer`),
 ortografia pós-1990 e vocabulário brasileiro. As formas de `tu` e a colocação
 do pronome ficam como o livro as ensina.
@@ -75,7 +75,7 @@ Abre o endereço que aparece no terminal (normalmente `http://localhost:5173`).
 src/
   data/units.js      ponto de entrada do conteúdo + formato dos dados e política
                      de adaptação ao português do Brasil (documentados no topo)
-  data/unidades/     conteúdo por lotes: u01-05.js, u06-10.js, u11-15.js, u16-20.js, u21-25.js, u26-30.js, u31-35.js
+  data/unidades/     conteúdo por lotes: u01-05.js, u06-10.js, u11-15.js, u16-20.js, u21-25.js, u26-30.js, u31-35.js, u36-40.js, u41-45.js
   lib/grading.js     correção (tolerante a acentos/maiúsculas/pontuação)
   lib/storage.js     perfis, progresso, exportar/importar (tudo em localStorage)
   lib/progress.js    percentagem por unidade e regra dos 80% que desbloqueia a seguinte
