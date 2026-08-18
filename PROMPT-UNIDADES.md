@@ -6,8 +6,8 @@ de unidades que queres nessa sessão.
 ---
 
 Estou a construir uma app para estudar português com os exercícios da cartilha
-"Gramática Ativa 1" (Lidel). As Unidades 1 a 15 já estão feitas e verificadas.
-Preciso que transcrevas as **Unidades 16 a 20** seguindo exactamente o mesmo
+"Gramática Ativa 1" (Lidel). As Unidades 1 a 30 já estão feitas e verificadas.
+Preciso que transcrevas as **Unidades 31 a 35** seguindo exactamente o mesmo
 método. Não faças commits nem deploy — disso trato eu.
 
 O projecto está em `C:\Users\Valentin Santander\Desktop\PORTUGUÊS\Academia_de_Gramatica`.
@@ -22,7 +22,7 @@ localStorage. `npm run lint` e `npm run build` têm de ficar limpos.
 2. **A cabeça de `src/data/units.js`** — o formato dos dados e a política de
    adaptação ao português do Brasil (o que se adapta e o que fica de propósito).
 
-E abre `src/data/unidades/u11-15.js` para veres o estilo à letra. Segue-o.
+E abre `src/data/unidades/u26-30.js` para veres o estilo à letra. Segue-o.
 
 ## Ponto de partida
 
@@ -37,7 +37,7 @@ extracção devolve nada, só o PDFium as decodifica, por isso as páginas lêem
 como **imagem**. Não tentes `pdftotext` nem `pdfplumber`, perdes tempo.
 
 A unidade **U** está em `fontes/paginas/pdf{2U+3}.png` (teoria) e
-`pdf{2U+4}.png` (exercícios). Unidade 16 → `pdf035.png` e `pdf036.png`.
+`pdf{2U+4}.png` (exercícios). Unidade 31 → `pdf065.png` e `pdf066.png`.
 
 ## Como transcrever cada unidade
 
@@ -45,13 +45,13 @@ Uma de cada vez, e nesta ordem:
 
 1. Lê a página da teoria e a dos exercícios com a ferramenta de leitura de
    ficheiros (as imagens vêem-se).
-2. `python scripts/ver-chave.py fontes/chave.txt 16` para as respostas.
+2. `python scripts/ver-chave.py fontes/chave.txt 31` para as respostas.
 3. Escreve a unidade no ficheiro do lote e liga-a em `src/data/units.js`.
 4. Só depois passa à seguinte.
 
 Escreve cada unidade em disco **antes** de passar à próxima, para o trabalho
 não se perder se a conversa se cortar. Junta-as em lotes de cinco:
-`src/data/unidades/u16-20.js`, que exporta `UNIDADES_16_20` e é reexportado por
+`src/data/unidades/u31-35.js`, que exporta `UNIDADES_31_35` e é reexportado por
 `src/data/units.js`. Repara que os imports em `units.js` levam extensão `.js` de
 propósito, para os scripts de verificação poderem carregar os dados com `node`.
 
@@ -127,7 +127,7 @@ semear a mais dá 100%):
 ```js
 const muitas = Array.from({ length: 400 }, () => true);
 const units = {};
-for (let n = 1; n <= 20; n++) units[n] = { seed: { results: { 1: muitas }, answers: {} } };
+for (let n = 1; n <= 35; n++) units[n] = { seed: { results: { 1: muitas }, answers: {} } };
 localStorage.setItem('ga_profiles', JSON.stringify(['Teste']));
 localStorage.setItem('ga_current_user', 'Teste');
 localStorage.setItem('ga_progress_Teste', JSON.stringify({ createdAt: new Date().toISOString(), units }));
@@ -143,7 +143,7 @@ entrar na pasta do projecto — nunca metas o caminho absoluto num literal.
 
 ## O que quero no fim
 
-As Unidades 16 a 20 transcritas, ligadas, verificadas contra a chave com zero
+As Unidades 31 a 35 transcritas, ligadas, verificadas contra a chave com zero
 divergências, traduzidas e com lint e build limpos. Diz-me que decisões de
 modelação tiveste de tomar e se encontraste alguma discrepância entre o livro
 digitalizado e a chave.

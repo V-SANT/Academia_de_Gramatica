@@ -82,7 +82,7 @@ export const UNIDADES_01_05 = [
         instructions: "Faça frases completas com: sou / és / é / somos / são",
         type: "construct",
         items: [
-          { n: 2, cue: "o futebol / um desporto muito popular", answer: "O futebol é um desporto muito popular." },
+          { n: 2, cue: "o futebol / um esporte muito popular", answer: "O futebol é um esporte muito popular." },
           { n: 3, cue: "tu / não / espanhol", answer: "Tu não és espanhol." },
           { n: 4, cue: "elas / boas alunas", answer: "Elas são boas alunas." },
           { n: 5, cue: "esta casa / moderna", answer: "Esta casa é moderna." },
@@ -194,7 +194,7 @@ export const UNIDADES_01_05 = [
           { n: 5, prompt: "Eu ___ com frio. Pode fechar a janela, por favor?", answers: ["estou"] },
           { n: 6, prompt: "O dinheiro ___ dentro da carteira.", answers: ["está"] },
           { n: 7, prompt: "Os livros ___ na mochila.", answers: ["estão"] },
-          { n: 8, prompt: "Este bolo ___ óptimo.", answers: ["está"] },
+          { n: 8, prompt: "Este bolo ___ ótimo.", answers: ["está"] },
           { n: 9, prompt: "Eles ___ sentados à mesa.", answers: ["estão"] },
           { n: 10, prompt: "Os meus sapatos ___ sujos.", answers: ["estão"] },
           { n: 11, prompt: "O Sr. Matos ___ no Porto.", answers: ["está"] },
@@ -236,7 +236,7 @@ export const UNIDADES_01_05 = [
       intro: [
         "Ele é de Lisboa, mas agora está no Porto.",
         "Lisboa é em Portugal. Nós estamos em Lisboa.",
-        "Os bolos desta pastelaria geralmente são óptimos, mas hoje não estão muito bons.",
+        "Os bolos desta pastelaria geralmente são ótimos, mas hoje não estão muito bons.",
         "São 10 horas da manhã e já está tanto calor!",
       ],
       sections: [
@@ -409,7 +409,7 @@ export const UNIDADES_01_05 = [
     theory: {
       intro: [
         "Ela mora em Lisboa.",
-        "Eles jogam ténis ao sábado.",
+        "Eles jogam tênis ao sábado.",
         "Ele toma o café da manhã às 8h.",
       ],
       table: {

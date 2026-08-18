@@ -49,5 +49,8 @@
 import { UNIDADES_01_05 } from "./unidades/u01-05.js";
 import { UNIDADES_06_10 } from "./unidades/u06-10.js";
 import { UNIDADES_11_15 } from "./unidades/u11-15.js";
+import { UNIDADES_16_20 } from "./unidades/u16-20.js";
+import { UNIDADES_21_25 } from "./unidades/u21-25.js";
+import { UNIDADES_26_30 } from "./unidades/u26-30.js";
 
-export const UNITS = [...UNIDADES_01_05, ...UNIDADES_06_10, ...UNIDADES_11_15];
+export const UNITS = [...UNIDADES_01_05, ...UNIDADES_06_10, ...UNIDADES_11_15, ...UNIDADES_16_20, ...UNIDADES_21_25, ...UNIDADES_26_30];

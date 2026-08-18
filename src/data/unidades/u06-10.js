@@ -377,10 +377,10 @@ export const UNIDADES_06_10 = [
     subtitle: "realização prolongada no presente vs. presente do indicativo",
     theory: {
       intro: [
-        "O que é que a Ana está fazendo? — A Ana está jogando ténis.",
-        "O que é que ela faz todos os sábados? — Ela joga ténis todos os sábados.",
-        "A Ana está jogando futebol? — Não, não está. Está jogando ténis.",
-        "A Ana joga futebol? — Não, não joga. Joga ténis.",
+        "O que é que a Ana está fazendo? — A Ana está jogando tênis.",
+        "O que é que ela faz todos os sábados? — Ela joga tênis todos os sábados.",
+        "A Ana está jogando futebol? — Não, não está. Está jogando tênis.",
+        "A Ana joga futebol? — Não, não joga. Joga tênis.",
       ],
       table: null,
       sections: [

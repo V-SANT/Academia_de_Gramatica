@@ -29,7 +29,7 @@ export const UNIDADES_11_15 = [
           examples: [
             "Na semana passada estive doente. Tive gripe. Agora estou bem: já não tenho febre.",
             "Tenho aulas todos os dias, mas ontem não tive porque o professor foi ao médico.",
-            "Ontem fomos aos anos do Pedro. A festa foi óptima.",
+            "Ontem fomos aos anos do Pedro. A festa foi ótima.",
             "Ele esteve uma semana no Porto. — Foi lá em negócios. Foi uma viagem muito cansativa.",
           ],
         },

@@ -44,7 +44,8 @@ const porUnidade = {};
 const paraGerundio = (s) =>
   s.replace(
     /\b(est(?:ou|ás|á|amos|ão|ar|ava|avas|ávamos|avam|eve|iveram|ive))\s+a\s+([a-zçãõáéíóúâêô]+)r\b/gi,
-    (_, estar, raiz) => `${estar} ${raiz}ndo`,
+    // "pôr" perde o circunflexo no gerúndio: estar a pôr -> estar pondo.
+    (_, estar, raiz) => `${estar} ${raiz.replace(/ô$/, "o")}ndo`,
   );
 
 const normalizar = (s) =>

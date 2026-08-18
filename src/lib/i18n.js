@@ -67,7 +67,7 @@ const UI = {
     "cartao.paraAbrir": " para abrir esta.",
 
     "home.ola": "Olá, {nome} 👋",
-    "home.titulo": "Bem-vindo de volta ao teu português",
+    "home.titulo": "Bem-vindo a Academia de Gramática",
     "home.tituloCompleto": "Percurso completo!",
     "home.intro":
       "Cada unidade tem a teoria e os exercícios do livro. Precisas de {pct}% de respostas certas numa unidade para abrir a seguinte.",
@@ -221,7 +221,7 @@ const UI = {
     "cartao.paraAbrir": " para abrir esta.",
 
     "home.ola": "Hola, {nome} 👋",
-    "home.titulo": "Bienvenido de vuelta a tu portugués",
+    "home.titulo": "Bienvenido a Academia de Gramática",
     "home.tituloCompleto": "¡Recorrido completo!",
     "home.intro":
       "Cada unidad tiene la teoría y los ejercicios del libro. Necesitas un {pct}% de respuestas correctas en una unidad para abrir la siguiente.",
@@ -508,6 +508,299 @@ export const CONTEUDO_ES = {
     "aspecto durativo — hechos en curso en el pasado",
   "aspecto frequentativo — ações habituais e repetidas no passado":
     "aspecto frecuentativo — acciones habituales y repetidas en el pasado",
+
+  // ---- Unidades 16-20 ----
+  // Continua a valer o mesmo critério: os títulos que são só formas verbais
+  // (estava fazendo / fiz, queria / podia / gostava, tinha feito) ficam em
+  // português, porque são a matéria de estudo.
+
+  // Títulos e subtítulos
+  "costumar (imperfeito) + infinitivo": "costumar (imperfecto) + infinitivo",
+  "ação habitual no passado": "acción habitual en el pasado",
+  "idade e horas no passado; ações simultâneas no passado":
+    "edad y horas en el pasado; acciones simultáneas en el pasado",
+  "ação em curso no passado e ação pontual (p.p.s.)":
+    "acción en curso en el pasado y acción puntual (p.p.s.)",
+  "imperfeito de cortesia; imperfeito com valor de condicional":
+    "imperfecto de cortesía; imperfecto con valor de condicional",
+  "pretérito mais-que-perfeito composto do indicativo":
+    "pretérito pluscuamperfecto compuesto de indicativo",
+
+  // Instruções
+  "Faça frases com o verbo no imperfeito e no presente do indicativo.":
+    "Haz frases con el verbo en el imperfecto y en el presente de indicativo.",
+  "Faça frases com os verbos no imperfeito.": "Haz frases con los verbos en el imperfecto.",
+  "O que é que eles costumavam fazer, quando viviam no campo?":
+    "¿Qué solían hacer ellos cuando vivían en el campo?",
+  "Complete as frases com os verbos ser ou ter no imperfeito.":
+    "Completa las frases con los verbos ser o ter en el imperfecto.",
+  "Faça frases, usando o imperfeito ou o p.p.s.": "Haz frases usando el imperfecto o el p.p.s.",
+  "Faça frases com os verbos no imperfeito e p.p.s.":
+    "Haz frases con los verbos en el imperfecto y el p.p.s.",
+  "Complete com o imperfeito ou p.p.s.": "Completa con el imperfecto o el p.p.s.",
+  "Complete as perguntas com o verbo no imperfeito (3.ª pessoa singular).":
+    "Completa las preguntas con el verbo en el imperfecto (3.ª persona del singular).",
+  "Complete com os verbos no imperfeito.": "Completa con los verbos en el imperfecto.",
+  "Faça frases com os verbos no imperfeito (= condicional) e no presente do indicativo.":
+    "Haz frases con los verbos en el imperfecto (= condicional) y en el presente de indicativo.",
+  "Complete com os verbos no pretérito mais-que-perfeito composto.":
+    "Completa con los verbos en el pretérito pluscuamperfecto compuesto.",
+  "Complete com os verbos no pretérito mais-que-perfeito composto e no p.p.s.":
+    "Completa con los verbos en el pretérito pluscuamperfecto compuesto y en el p.p.s.",
+  "Complete com os verbos no pretérito mais-que-perfeito composto ou no p.p.s.":
+    "Completa con los verbos en el pretérito pluscuamperfecto compuesto o en el p.p.s.",
+
+  // Notas
+  "O exemplo do livro é: (eles) / levantar-se / cedo — agora / tarde → Costumavam levantar-se cedo; agora levantam-se tarde.":
+    "El ejemplo del libro es: (eles) / levantar-se / cedo — agora / tarde → Costumavam levantar-se cedo; agora levantam-se tarde.",
+  "Cada situação leva duas frases: primeiro o que não havia, depois o que as pessoas costumavam fazer. O exemplo do livro é: máquinas de lavar // lavar tudo à mão → Antigamente não havia máquinas de lavar. As pessoas costumavam lavar tudo à mão.":
+    "Cada situación lleva dos frases: primero lo que no había, después lo que la gente solía hacer. El ejemplo del libro es: máquinas de lavar // lavar tudo à mão → Antigamente não havia máquinas de lavar. As pessoas costumavam lavar tudo à mão.",
+  "O exemplo do livro é: (levantar-se cedo) → Costumavam levantar-se cedo.":
+    "El ejemplo del libro es: (levantar-se cedo) → Costumavam levantar-se cedo.",
+  "O exemplo do livro é: (ele / vestir-se // ela / arranjar o café da manhã) → Enquanto ele se vestia, ela arranjava o café da manhã.":
+    "El ejemplo del libro es: (ele / vestir-se // ela / arranjar o café da manhã) → Enquanto ele se vestia, ela arranjava o café da manhã.",
+  "Cada situação leva três frases: a ação que estava em curso e as duas que aconteceram. O exemplo do livro é: (ela / ler o jornal) → Ela estava lendo o jornal. (o telefone / tocar) → O telefone tocou. (ela / atender o telefone) → Ela atendeu o telefone.":
+    "Cada situación lleva tres frases: la acción que estaba en curso y las dos que ocurrieron. El ejemplo del libro es: (ela / ler o jornal) → Ela estava lendo o jornal. (o telefone / tocar) → O telefone tocou. (ela / atender o telefone) → Ela atendeu o telefone.",
+  "O exemplo do livro é: (eles / chegar // a empregada / arrumar a casa) → A empregada estava arrumando a casa quando eles chegaram.":
+    "El ejemplo del libro es: (eles / chegar // a empregada / arrumar a casa) → A empregada estava arrumando a casa quando eles chegaram.",
+  "Os dois primeiros itens vêm já resolvidos no livro: Estava chovendo (chover) quando (eu) saí (sair) de casa. / O que é que estavas fazendo (fazer) quando te telefonei (telefonar)?":
+    "Los dos primeros ítems vienen ya resueltos en el libro: Estava chovendo (chover) quando (eu) saí (sair) de casa. / O que é que estavas fazendo (fazer) quando te telefonei (telefonar)?",
+  "O pronome fica colado ao verbo, como no exemplo do livro: Podia (poder) dizer-me onde ficam os Correios, por favor?":
+    "El pronombre va pegado al verbo, como en el ejemplo del libro: Podia (poder) dizer-me onde ficam os Correios, por favor?",
+  "O exemplo do livro é: A Ana gostava (gostar) de tirar um curso nos Estados Unidos.":
+    "El ejemplo del libro es: A Ana gostava (gostar) de tirar um curso nos Estados Unidos.",
+  "O exemplo do livro é: Não tenho tempo. Por isso não vou com vocês. → Ia com vocês, mas não tenho tempo.":
+    "El ejemplo del libro es: Não tenho tempo. Por isso não vou com vocês. → Ia com vocês, mas não tenho tempo.",
+  "O exemplo do livro é: Não estavas em casa. (sair) → Já tinhas saído.":
+    "El ejemplo del libro es: Não estavas em casa. (sair) → Já tinhas saído.",
+  "O exemplo do livro é: Quando eu cheguei (chegar) a casa, a minha mãe já tinha saído (sair).":
+    "El ejemplo del libro es: Quando eu cheguei (chegar) a casa, a minha mãe já tinha saído (sair).",
+  "Os dois primeiros itens vêm já resolvidos no livro: Não tenho fome. Já almocei (almoçar). / Ele não tinha fome. Já tinha almoçado (almoçar).":
+    "Los dos primeros ítems vienen ya resueltos en el libro: Não tenho fome. Já almocei (almoçar). / Ele não tinha fome. Já tinha almoçado (almoçar).",
+  "Quando duas ações decorrem ao mesmo tempo no passado, as duas vão para o imperfeito e ligam-se com enquanto.":
+    "Cuando dos acciones ocurren al mismo tiempo en el pasado, las dos van al imperfecto y se unen con enquanto.",
+
+  // Títulos de secções de teoria
+  "Ação habitual: no passado / no presente": "Acción habitual: en el pasado / en el presente",
+  "Ações simultâneas no passado": "Acciones simultáneas en el pasado",
+  "Imperfeito vs. p.p.s.": "Imperfecto vs. p.p.s.",
+  "Ontem à noite, das 21h às 23h": "Ayer por la noche, de las 21h a las 23h",
+  "Usamos o imperfeito, forma de cortesia, para fazer delicadamente uma afirmação:":
+    "Usamos el imperfecto, forma de cortesía, para hacer delicadamente una afirmación:",
+  "Usamos o imperfeito, forma de cortesia, para fazer delicadamente um pedido:":
+    "Usamos el imperfecto, forma de cortesía, para hacer delicadamente una petición:",
+  "Usamos o imperfeito (= condicional) para expressar um desejo:":
+    "Usamos el imperfecto (= condicional) para expresar un deseo:",
+  "Usamos o imperfeito (= condicional) para falar de ações pouco prováveis de acontecerem, porque a condição de que dependem não se realiza no presente:":
+    "Usamos el imperfecto (= condicional) para hablar de acciones poco probables, porque la condición de la que dependen no se cumple en el presente:",
+  "Usamos o pretérito mais-que-perfeito composto do indicativo para falar de ações passadas que aconteceram antes de outras também passadas:":
+    "Usamos el pretérito pluscuamperfecto compuesto de indicativo para hablar de acciones pasadas que ocurrieron antes de otras también pasadas:",
+  "Particípio passado regular": "Participio pasado regular",
+  "Particípio passado irregular": "Participio pasado irregular",
+
+  // Etiquetas dos exemplos
+  "idade no passado": "edad en el pasado",
+  "horas no passado": "horas en el pasado",
+  "as duas ações decorrem ao mesmo tempo": "las dos acciones ocurren al mismo tiempo",
+  "imperfeito — ação em curso (~)": "imperfecto — acción en curso (~)",
+  "p.p.s. — ação pontual (•)": "p.p.s. — acción puntual (•)",
+  "p.p.s. — ação completa": "p.p.s. — acción completa",
+  "imperfeito — ação em curso": "imperfecto — acción en curso",
+
+  // ---- Unidades 21-25 ----
+  // Ficam sem entrada, de propósito, os títulos que são só formas do que se
+  // está a estudar: "tenho feito", "vou fazer, estou fazendo e acabei de
+  // fazer" e a lista de artigos "o, a, os, as; um, uma, uns, umas".
+
+  // Títulos e subtítulos
+  "pretérito perfeito composto do indicativo": "pretérito perfecto compuesto de indicativo",
+  "futuro próximo, realização prolongada no presente e passado recente":
+    "futuro próximo, acción en curso en el presente y pasado reciente",
+  "futuro imperfeito do indicativo": "futuro imperfecto de indicativo",
+  "condicional presente": "condicional presente",
+  "artigos definidos e indefinidos": "artículos definidos e indefinidos",
+
+  // Instruções
+  "Complete com os verbos no pretérito perfeito composto.":
+    "Completa con los verbos en el pretérito perfecto compuesto.",
+  "Faça frases com os verbos no pretérito perfeito composto.":
+    "Haz frases con los verbos en el pretérito perfecto compuesto.",
+  "Complete com o pretérito perfeito composto e o p.p.s.":
+    "Completa con el pretérito perfecto compuesto y el p.p.s.",
+  "Faça frases com: ir + infinitivo, estar + gerúndio, acabar de + infinitivo.":
+    "Haz frases con: ir + infinitivo, estar + gerúndio, acabar de + infinitivo.",
+  "Faça perguntas e dê as respostas.": "Haz las preguntas y da las respuestas.",
+  "Responda às seguintes perguntas.": "Responde a las siguientes preguntas.",
+  "Complete com os seguintes verbos no futuro:": "Completa con los siguientes verbos en el futuro:",
+  "A Joana é comissária de bordo e viaja muito. Faça frases com os verbos no futuro.":
+    "La Joana es azafata y viaja mucho. Haz frases con los verbos en el futuro.",
+  "Complete com os verbos no futuro.": "Completa con los verbos en el futuro.",
+  "Complete as frases com os verbos na forma correta:":
+    "Completa las frases con los verbos en la forma correcta:",
+  "Complete as frases interrogativas com os verbos no futuro.":
+    "Completa las frases interrogativas con los verbos en el futuro.",
+  "Complete com o verbo no condicional.": "Completa con el verbo en el condicional.",
+  "Substitua os verbos no imperfeito pelo condicional.":
+    "Sustituye los verbos en imperfecto por el condicional.",
+  "Complete com os verbos no condicional.": "Completa con los verbos en el condicional.",
+  "Complete com os artigos definidos.": "Completa con los artículos definidos.",
+  "Complete com os artigos indefinidos.": "Completa con los artículos indefinidos.",
+  "Complete com os artigos definidos ou indefinidos.":
+    "Completa con los artículos definidos o indefinidos.",
+
+  // Notas
+  "O exemplo do livro é: — (Tu) Tens visto (ver) a nova série da televisão? — Não. (Eu) Tenho tido (ter) muito trabalho ultimamente.":
+    "El ejemplo del libro es: — (Tu) Tens visto (ver) a nova série da televisão? — Não. (Eu) Tenho tido (ter) muito trabalho ultimamente.",
+  "O exemplo do livro é: (ela / faltar às aulas) → Ela tem faltado às aulas.":
+    "El ejemplo del libro es: (ela / faltar às aulas) → Ela tem faltado às aulas.",
+  "O exemplo do livro é: Desde que a escola abriu (abrir), têm tido (ter) muitas inscrições.":
+    "El ejemplo del libro es: Desde que a escola abriu (abrir), têm tido (ter) muitas inscrições.",
+  "Cada pista leva as três frases. O exemplo do livro é: eu / ler o jornal → Eu vou ler o jornal. Eu estou lendo o jornal. Eu acabei de ler o jornal.":
+    "Cada pista lleva las tres frases. El ejemplo del libro es: eu / ler o jornal → Eu vou ler o jornal. Eu estou lendo o jornal. Eu acabei de ler o jornal.",
+  "O exemplo do livro é: (vocês / fazer / logo à noite) (ver o filme da televisão) → O que é que vocês vão fazer logo à noite? Vamos ver o filme da televisão.":
+    "El ejemplo del libro es: (vocês / fazer / logo à noite) (ver o filme da televisão) → O que é que vocês vão fazer logo à noite? Vamos ver o filme da televisão.",
+  "O exemplo do livro é: Quando é que voltaste? (chegar) → Acabei de chegar.":
+    "El ejemplo del libro es: Quando é que voltaste? (chegar) → Acabei de chegar.",
+  "O exemplo do livro é: (amanhã às 10h / partir para Madrid) → Amanhã às 10h partirá para Madrid.":
+    "El ejemplo del libro es: (amanhã às 10h / partir para Madrid) → Amanhã às 10h partirá para Madrid.",
+  "O exemplo do livro é: Não fumo nem nunca fumarei.":
+    "El ejemplo del libro es: Não fumo nem nunca fumarei.",
+  "O exemplo do livro é: No ano passado nós estivemos (estar) na Grécia. Este ano iremos (ir) para Espanha.":
+    "El ejemplo del libro es: No ano passado nós estivemos (estar) na Grécia. Este ano iremos (ir) para Espanha.",
+  "Entre parênteses fica a forma do imperfeito que está no livro; escreve só o verbo no condicional. O exemplo do livro é: Nós íamos ao cinema… → Nós iríamos ao cinema, mas infelizmente não temos tempo.":
+    "Entre paréntesis va la forma del imperfecto que trae el libro; escribe solo el verbo en condicional. El ejemplo del libro es: Nós íamos ao cinema… → Nós iríamos ao cinema, mas infelizmente não temos tempo.",
+  "O exemplo do livro é: Fiz isso e faria outra vez.":
+    "El ejemplo del libro es: Fiz isso e faria outra vez.",
+  "O exemplo do livro é: uma árvore.": "El ejemplo del libro es: uma árvore.",
+  "O exemplo do livro é: Lisboa é uma cidade bonita.":
+    "El ejemplo del libro es: Lisboa é uma cidade bonita.",
+  "No livro já vêm resolvidos o item 1 (o lápis), o 11 (o homem), o 21 (o pai) e o 31 (as calças).":
+    "En el libro ya vienen resueltos el ítem 1 (o lápis), el 11 (o homem), el 21 (o pai) y el 31 (as calças).",
+  "Quando o verbo principal está no particípio passado, o pronome coloca-se antes ou depois do auxiliar, conforme a regra da Unidade 14.":
+    "Cuando el verbo principal está en participio pasado, el pronombre va antes o después del auxiliar, según la regla de la Unidad 14.",
+  "Nos quatro primeiros casos o condicional pode ser substituído pelo pretérito imperfeito do indicativo, forma mais coloquial.":
+    "En los cuatro primeros casos el condicional puede sustituirse por el pretérito imperfecto de indicativo, forma más coloquial.",
+  "No plural, uns e umas têm uso restrito.": "En plural, uns y umas tienen uso restringido.",
+
+  // Títulos de secções de teoria
+  "Usamos o pretérito perfeito composto do indicativo para falar de ações que começam no passado e se prolongam até ao momento presente:":
+    "Usamos el pretérito perfecto compuesto de indicativo para hablar de acciones que empiezan en el pasado y se prolongan hasta el momento presente:",
+  "Colocação dos pronomes": "Colocación de los pronombres",
+  "Futuro próximo — ir + infinitivo": "Futuro próximo — ir + infinitivo",
+  "Realização prolongada no presente — estar + gerúndio":
+    "Acción en curso en el presente — estar + gerúndio",
+  "Passado recente — acabar de + infinitivo": "Pasado reciente — acabar de + infinitivo",
+  "Também usamos esta forma de futuro em frases interrogativas para exprimir incerteza ou desconhecimento sobre situações presentes:":
+    "También usamos esta forma de futuro en frases interrogativas para expresar incertidumbre o desconocimiento sobre situaciones presentes:",
+  "Usamos o condicional para:": "Usamos el condicional para:",
+  "Artigos definidos": "Artículos definidos",
+  "Artigos indefinidos": "Artículos indefinidos",
+  "O artigo precede o substantivo e concorda com ele em gênero e número:":
+    "El artículo precede al sustantivo y concuerda con él en género y número:",
+  "Não usamos o artigo definido antes de:": "No usamos el artículo definido delante de:",
+
+  // Etiquetas dos exemplos
+  meses: "meses",
+  datas: "fechas",
+  vocativos: "vocativos",
+  "alguns nomes de países": "algunos nombres de países",
+
+  // ---- Unidades 26-30 ----
+  // Sem entrada, de propósito: os títulos que são as próprias formas em estudo
+  // ("isto, isso, aquilo; aqui, aí, ali", "este, esse, aquele, etc.", "meu,
+  // teu, seu, etc."), as etiquetas aqui/aí/ali e os nomes das pessoas.
+
+  // Títulos e subtítulos
+  "demonstrativos invariáveis e advérbios de lugar":
+    "demostrativos invariables y adverbios de lugar",
+  "demonstrativos variáveis": "demostrativos variables",
+  possessivos: "posesivos",
+  "discurso direto e indireto": "discurso directo e indirecto",
+  "contar o que outra pessoa disse": "contar lo que otra persona dijo",
+  "infinitivo pessoal": "infinitivo personal",
+  "o infinitivo que muda com a pessoa": "el infinitivo que cambia con la persona",
+
+  // Instruções
+  "Complete com isto, isso, aquilo.": "Completa con isto, isso, aquilo.",
+  "Complete as respostas com isto, isso, aquilo.": "Completa las respuestas con isto, isso, aquilo.",
+  "Complete as respostas. Use isto, isso, aquilo, o presente do indicativo do verbo ser e os artigos definidos e indefinidos.":
+    "Completa las respuestas. Usa isto, isso, aquilo, el presente de indicativo del verbo ser y los artículos definidos e indefinidos.",
+  "Complete com este, esta, estes ou estas.": "Completa con este, esta, estes o estas.",
+  "Complete com esse, essa, esses ou essas.": "Completa con esse, essa, esses o essas.",
+  "Complete com aquele, aquela, aqueles ou aquelas.": "Completa con aquele, aquela, aqueles o aquelas.",
+  "Complete com este, esse, aquele, etc.": "Completa con este, esse, aquele, etc.",
+  "Complete com este(s), esta(s); esse(s), essa(s).": "Completa con este(s), esta(s); esse(s), essa(s).",
+  "Complete as seguintes frases:": "Completa las siguientes frases:",
+  "Use os possessivos.": "Usa los posesivos.",
+  "Ontem à tarde você encontrou a Paula, uma amiga sua, que lhe contou muitas coisas. À noite conta a outra amiga tudo o que a Paula disse.":
+    "Ayer por la tarde te encontraste con la Paula, una amiga tuya, que te contó muchas cosas. Por la noche le cuentas a otra amiga todo lo que la Paula dijo.",
+  "Imagine que um amigo seu lhe diz uma coisa e que depois diz exatamente o contrário. Use verbos de opinião como pensar que e julgar que.":
+    "Imagina que un amigo tuyo te dice una cosa y que después dice exactamente lo contrario. Usa verbos de opinión como pensar que y julgar que.",
+  "Complete com os verbos no infinitivo pessoal.": "Completa con los verbos en el infinitivo personal.",
+  "Ligue as frases com as palavras entre parênteses. Faça as alterações necessárias.":
+    "Une las frases con las palabras entre paréntesis. Haz los cambios necesarios.",
+  "Complete as frases com as preposições ao / até / para / por / sem e com os verbos no infinitivo pessoal.":
+    "Completa las frases con las preposiciones ao / até / para / por / sem y con los verbos en el infinitivo personal.",
+
+  // Notas
+  "Isto, isso e aquilo vão sempre com é (um livro, uma caneta) ou são (livros, canetas).":
+    "Isto, isso y aquilo van siempre con é (um livro, uma caneta) o são (livros, canetas).",
+  "O exemplo do livro é: Isto aqui é um livro.": "El ejemplo del libro es: Isto aqui é um livro.",
+  "O exemplo do livro é: — O que é isto? — Isso é um lápis.":
+    "El ejemplo del libro es: — O que é isto? — Isso é um lápis.",
+  "No livro já vêm resolvidos o item 1 (— O que é isto? (livro) → Isso é um livro.) e o 6 (— O que é isto? (livros) → Isso são livros.).":
+    "En el libro ya vienen resueltos el ítem 1 (— O que é isto? (livro) → Isso é um livro.) y el 6 (— O que é isto? (livros) → Isso são livros.).",
+  "O exemplo do livro é: estas pessoas.": "El ejemplo del libro es: estas pessoas.",
+  "O exemplo do livro é: esse dicionário.": "El ejemplo del libro es: esse dicionário.",
+  "O exemplo do livro é: aquelas crianças.": "El ejemplo del libro es: aquelas crianças.",
+  "Escreve só a segunda frase. O exemplo do livro é: — O que é isto? (bolo / de chocolate) — Isso é um bolo. Esse bolo é de chocolate.":
+    "Escribe solo la segunda frase. El ejemplo del libro es: — O que é isto? (bolo / de chocolate) — Isso é um bolo. Esse bolo é de chocolate.",
+  "O exemplo do livro é: Essa caneta não escreve. Usa esta.":
+    "El ejemplo del libro es: Essa caneta não escreve. Usa esta.",
+  "No livro já vêm resolvidos o item 1 (— De quem é esta bola? (eu) → É minha.) e o 2 (— De quem são estes óculos? (ele) → São dele.).":
+    "En el libro ya vienen resueltos el ítem 1 (— De quem é esta bola? (eu) → É minha.) y el 2 (— De quem são estes óculos? (ele) → São dele.).",
+  "O exemplo do livro é: Vi a sra. Marques com o marido dela.":
+    "El ejemplo del libro es: Vi a sra. Marques com o marido dela.",
+  "No livro já vêm resolvidos o item 1 (Nós temos um apartamento. → É o nosso apartamento.) e o 2 (Ele comprou uma máquina fotográfica. → É a máquina fotográfica dele.).":
+    "En el libro ya vienen resueltos el ítem 1 (Nós temos um apartamento. → É o nosso apartamento.) y el 2 (Ele comprou uma máquina fotográfica. → É a máquina fotográfica dele.).",
+  "Verbos introdutórios para o discurso indireto: dizer / contar / perguntar / responder / querer saber.":
+    "Verbos introductorios para el discurso indirecto: dizer / contar / perguntar / responder / querer saber.",
+  "Escreve só a parte que continua a frase começada. O exemplo do livro é: Estou morando em casa dos meus pais. → A Paula disse-me que estava morando em casa dos pais dela.":
+    "Escribe solo la parte que continúa la frase empezada. El ejemplo del libro es: Estou morando em casa dos meus pais. → A Paula disse-me que estava morando em casa dos pais dela.",
+  "O exemplo do livro é: — Este restaurante é caro. — Pensei que tinhas dito que não era caro.":
+    "El ejemplo del libro es: — Este restaurante é caro. — Pensei que tinhas dito que não era caro.",
+  "A 1.ª e a 3.ª pessoa do singular são iguais ao infinitivo normal.":
+    "La 1.ª y la 3.ª persona del singular son iguales al infinitivo normal.",
+  "O exemplo do livro é: Fomos visitar a Ana por ela estar (estar) doente.":
+    "El ejemplo del libro es: Fomos visitar a Ana por ela estar (estar) doente.",
+  "O exemplo do livro é: Ele vai ao cinema. Primeiro acaba o trabalho. (depois de) → Ele vai ao cinema depois de acabar o trabalho.":
+    "El ejemplo del libro es: Ele vai ao cinema. Primeiro acaba o trabalho. (depois de) → Ele vai ao cinema depois de acabar o trabalho.",
+  "O exemplo do livro é: Ao entrarem (entrar) em casa, viram que estava tudo desarrumado.":
+    "El ejemplo del libro es: Ao entrarem (entrar) em casa, viram que estava tudo desarrumado.",
+
+  // Títulos de secções de teoria
+  "Isto, isso e aquilo são demonstrativos invariáveis: usam-se para pedir a identificação de objetos ou para identificar objetos.":
+    "Isto, isso y aquilo son demostrativos invariables: se usan para pedir la identificación de objetos o para identificarlos.",
+  "A que distância está o objeto": "A qué distancia está el objeto",
+  "Aqui, aí e ali são advérbios de lugar e podem ser usados com os demonstrativos:":
+    "Aqui, aí y ali son adverbios de lugar y pueden usarse con los demostrativos:",
+  "Demonstrativos variáveis": "Demostrativos variables",
+  "Como se usam": "Cómo se usan",
+  Possessivos: "Posesivos",
+  "Na 3.ª pessoa usa-se de + ele/ela/eles/elas:": "En la 3.ª persona se usa de + ele/ela/eles/elas:",
+  "Tempos verbais — direto → indireto": "Tiempos verbales — directo → indirecto",
+  Advérbios: "Adverbios",
+  "Pessoais, possessivos e demonstrativos": "Personales, posesivos y demostrativos",
+  "No fim de semana passado a Ana encontrou o João numa festa":
+    "El fin de semana pasado la Ana se encontró con el João en una fiesta",
+  "Como se forma": "Cómo se forma",
+  "Usa-se depois de expressões impessoais:": "Se usa después de expresiones impersonales:",
+  "Usa-se depois de preposições:": "Se usa después de preposiciones:",
+  "Usa-se depois de locuções prepositivas:": "Se usa después de locuciones prepositivas:",
+
+  // Etiquetas dos exemplos
+  lugar: "lugar",
+  tempo: "tiempo",
 };
 
 function interpolar(texto, params) {

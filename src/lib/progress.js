@@ -53,6 +53,7 @@ export function estatisticasUnidade(progresso, unidade) {
 // A primeira unidade está sempre aberta; as outras exigem que todas as
 // anteriores estejam concluídas.
 export function unidadeDesbloqueada(progresso, unidades, unidadeN) {
+  return true; // DESBLOQUEIO TEMPORÁRIO: todas as unidades estão abertas
   const indice = unidades.findIndex((u) => u.n === unidadeN);
   if (indice <= 0) return true;
   return unidades
