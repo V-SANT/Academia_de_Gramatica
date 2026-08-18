@@ -35,7 +35,7 @@ export const UNIDADES_46_50 = [
         {
           heading: "quem · onde",
           examples: [
-            "O professor vai na excursão. Estivemos a falar com ele. → O professor com quem estivemos falando vai na excursão.",
+            "O professor vai na excursão. Estivemos falando com ele. → O professor com quem estivemos falando vai na excursão.",
             "O restaurante era ótimo. Nós fomos lá. → O restaurante onde fomos era ótimo.",
           ],
         },
