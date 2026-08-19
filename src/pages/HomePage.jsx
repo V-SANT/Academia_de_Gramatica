@@ -125,8 +125,6 @@ export default function HomePage({ unidades, progresso, username }) {
             ))}
         </div>
       </section>
-
-      <p className="text-xs text-noite-400 dark:text-noite-500">{t("home.rodape")}</p>
     </div>
   );
 }

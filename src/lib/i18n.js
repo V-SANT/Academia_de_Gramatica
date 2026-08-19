@@ -80,8 +80,6 @@ const UI = {
     "home.precisao": "Precisão",
     "home.proximaEtapa": "A tua próxima etapa",
     "home.proximaEtapaNota": "Continua por aqui — as unidades seguintes abrem à medida que avanças.",
-    "home.rodape":
-      "Piloto com as Unidades 1–5 da Gramática Ativa 1 (Lidel). As restantes vão sendo adicionadas.",
 
     "unidades.titulo": "Unidades",
     "unidades.resumo": "{concluidas} de {total} concluídas · {desbloqueadas} desbloqueadas",
@@ -234,8 +232,6 @@ const UI = {
     "home.precisao": "Precisión",
     "home.proximaEtapa": "Tu próxima etapa",
     "home.proximaEtapaNota": "Sigue por aquí — las unidades siguientes se abren a medida que avanzas.",
-    "home.rodape":
-      "Piloto con las Unidades 1–5 de Gramática Ativa 1 (Lidel). Las demás se irán añadiendo.",
 
     "unidades.titulo": "Unidades",
     "unidades.resumo": "{concluidas} de {total} completadas · {desbloqueadas} desbloqueadas",
